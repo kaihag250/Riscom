@@ -34,7 +34,7 @@ function renderRiskCards(dataText) {
     cards.push(`
       <div class="card warning">
         <strong>⚠️ Verbal Descriptor Warning</strong><br>
-        Vague terms like “significantly higher” found. Consider adding numbers.
+        Vague terms like “significantly higher” found. Numbers would be clearer.
       </div>
     `);
   }
