@@ -1,3 +1,4 @@
+
 def extract_selected_attributes(llm_output: str) -> dict:
     # The fields you always want to extract (in this order)
     target_keys = [
