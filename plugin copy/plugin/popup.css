@@ -1,0 +1,137 @@
+body {
+  width: 470px;
+  padding: 16px;
+  margin: 0;
+  border: 4px solid #3f414bbe; /* Standard-Rahmen */
+  border-radius: 8px;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  color: #212529;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+/* === Titel / Überschrift === */
+h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #2c3e50;
+}
+
+/* === Button === */
+#analyze {
+  display: block;
+  width: 100%;
+  padding: 12px 0;
+  background-color: #3f414b;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#analyze:hover {
+  background-color: #5a5d6a;
+}
+
+/* === Ergebnisfeld === */
+#output {
+  margin-top: 16px;
+  padding: 14px;
+  background-color: #f1f3f5;
+  border: 1px dashed #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: pre-wrap;
+  min-height: 60px;
+  color: #343a40;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Optional: leichte Schattierung */
+body {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.warning-text {
+  color: #dc3545;
+  font-weight: 600;
+}
+.highlight.warning {
+  background-color: #fff3cd;
+  color: #664d03;
+  border-left: 4px solid #ffc107;
+  padding: 10px 12px;
+  margin: 0;
+  border-radius: 6px;
+  font-family: inherit;
+  white-space: pre-wrap;
+}
+
+.highlight.warning:before {
+  content: "⚠️";
+  font-size: 18px;
+  margin-right: 4px;
+}
+.highlight.info::before {
+  content: "✅";
+  font-size: 18px;
+  margin-right: 4px;
+}
+
+.highlight.info {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border-left: 4px solid #0f5132;
+  padding: 10px 12px;
+  margin: 0;
+  border-radius: 6px;
+  font-family: inherit;
+}
+#output pre {
+  margin: 0;
+  padding: 0;
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+#output.animated {
+  animation: zoomIn 1.5s ease-out;
+}
+
+.card {
+  padding: 12px 14px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.4;
+  animation: zoomIn 0.5s ease;
+}
+
+.card.success {
+  background-color: #d1e7dd;
+  color: #0f5132;
+  border-left: 4px solid #0f5132;
+}
+
+.card.warning {
+  background-color: #fff3cd;
+  color: #664d03;
+  border-left: 4px solid #ffc107;
+}
+
+.card.info {
+  background-color: #e2e3e5;
+  color: #41464b;
+  border-left: 4px solid #adb5bd;
+}

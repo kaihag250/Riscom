@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Risk Analyzer",
+  "version": "1.0",
+  "description": "Analysiert markierte Texte hinsichtlich Risikokommunikation",
+  "permissions": ["activeTab", "scripting","tabs"],
+  "action": {
+    "default_icon": {
+      "16": "icon.png"
+    },
+     "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
