@@ -39,8 +39,8 @@ document.getElementById("analyze").addEventListener("click", () => {
       }
 
       const selectedText = response.text.trim();
-
-const prompt = `Two Risk Scenarios
+// eigentlich prompt für LLM
+const prompt = `Two Risk Scenarios  
 
 --- Calculating missing figures ---
 From relative risk and base absolute risk calculated: absolute risk (new) = 10.00%
@@ -61,7 +61,7 @@ Absolute risk (new): 10.00% (10.00 per 100)
 The risk in the new case is 100.00% higher than in the base case.`;
 
    
-      // Originaler Server-Aufruf (auskommentiert, zum Testen mit Dummy gearbeitet)
+      // Originaler Server-Aufruf (soll am Ende Dummy ersetzen aber es müssen noch Elemente aus der Dummy Klasse hinzugefügt werden)
       /*
       fetch("http://193.196.39.49:8000/analyze", {
         method: "POST",
@@ -89,11 +89,11 @@ The risk in the new case is 100.00% higher than in the base case.`;
 
       // Dummy-Aufruf
       analyzeTextDummy(prompt).then(data => {
-        const outputElement = document.getElementById("output");
-        outputElement.innerHTML = highlightKeyPhrases(data.response).replace(/\n/g, "<br>");
-        outputElement.classList.remove("animated");      // vorherige Animation entfernen
-        void outputElement.offsetWidth;                  // Trick: Reflow zum Neustarten der Animation
-        outputElement.classList.add("animated");         // Klasse für Animation hinzufügen
+        const outputElement = document.getElementById("output"); //output
+        outputElement.innerHTML = highlightKeyPhrases(data.response).replace(/\n/g, "<br>"); //highlighten von output
+        outputElement.classList.remove("animated");      // 3 Zielen dienen zum Anzeigen von Animation
+        void outputElement.offsetWidth;                  // 
+        outputElement.classList.add("animated");         // 
       });
 
     });
