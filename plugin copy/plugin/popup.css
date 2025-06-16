@@ -1,10 +1,11 @@
 body {
   width: 470px;
-  height: 580px; /* ✅ add this line */
-  overflow-y: auto; /* optional fallback */
+  min-height: 400px;         /* minimum popup height */
+  max-height: 600px;         /* maximum height allowed by Chrome */
+  overflow-y: auto;          /* enable scrolling only if needed */
   padding: 16px;
   margin: 0;
-  border: 4px solid #3f414bbe; /* Standard-Rahmen */
+  border: 4px solid #3f414bbe;
   border-radius: 8px;
   font-family: "Segoe UI", system-ui, sans-serif;
   background-color: #ffffff;
@@ -12,6 +13,7 @@ body {
   color: #212529;
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
+
 /* === Titel / Überschrift === */
 h2 {
   font-size: 20px;
