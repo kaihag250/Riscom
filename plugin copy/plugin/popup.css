@@ -13,6 +13,15 @@ body {
   color: #212529;
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
+details {
+  max-height: 200px;
+  overflow-y: auto;
+  display: block;
+  padding-left: 4px;
+  padding-right: 4px;
+  margin-top: 6px;
+}
+
 
 /* === Titel / Überschrift === */
 h2 {
@@ -96,8 +105,14 @@ body {
 }
 #output pre {
   margin: 0;
-  padding: 0;
+  padding: 8px 0;
+  white-space: pre-wrap;         /* ✅ wrap long lines */
+  word-break: break-word;        /* ✅ break long words */
+  overflow-x: hidden;            /* ✅ prevent horizontal scroll */
+  width: 100%;                   /* ✅ use full available space */
+  box-sizing: border-box;
 }
+
 @keyframes zoomIn {
   from {
     opacity: 0;
