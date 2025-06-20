@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Seite-1" id="V1NviS9jJ_YA16mUobFE">
-    <mxGraphModel dx="1869" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2696" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -48,28 +48,28 @@
         <mxCell id="_j1XVWTobyJe0texyYif-8" value="Gibt es mehrere Szenarien" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="80" y="300" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-31" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-30">
+        <mxCell id="_j1XVWTobyJe0texyYif-79" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-20" value="Sind ein oder mehr absolute Risiken gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="460" width="80" height="80" as="geometry" />
+        <mxCell id="_j1XVWTobyJe0texyYif-80" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-77">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-29" value="Ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-27">
+        <mxCell id="_j1XVWTobyJe0texyYif-81" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-83">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="160" y="430" as="targetPoint" />
+            <mxPoint x="-180" y="560" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-20" value="Wie viele absolute Risiken sind gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-493" y="450" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-34" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-21" value="Ist ein absolutes Risiko gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="460" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-27" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="530" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-30" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="530" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-36" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-32" target="_j1XVWTobyJe0texyYif-35">
           <mxGeometry relative="1" as="geometry" />
@@ -84,13 +84,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-35" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="610" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-37" value="Meldung: Keine Zahlenwerte gegeben" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="330" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-39" value="Meldung: Weder absolute Zahl noch Risiko gegeben" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="940" y="700" width="120" height="60" as="geometry" />
+          <mxGeometry x="920" y="700" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-41" target="_j1XVWTobyJe0texyYif-43">
           <mxGeometry relative="1" as="geometry" />
@@ -132,6 +132,39 @@
         </mxCell>
         <mxCell id="_j1XVWTobyJe0texyYif-63" value="Stopp: Transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="790" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-65" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-67" target="_j1XVWTobyJe0texyYif-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-66" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-67" target="_j1XVWTobyJe0texyYif-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-67" value="ist Quelle gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="540" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-69" target="_j1XVWTobyJe0texyYif-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-69" value="Stopp: Potentiell transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-70" value="Meldung: Verifiziere Quelle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-71" value="Stopp: Transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-77" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-493" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-78" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-82" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-830" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-83" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="560" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
