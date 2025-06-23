@@ -1,170 +1,255 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
   <diagram name="Seite-1" id="V1NviS9jJ_YA16mUobFE">
-    <mxGraphModel dx="2696" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3154" dy="596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_j1XVWTobyJe0texyYif-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-1" target="_j1XVWTobyJe0texyYif-3">
+        <mxCell id="_j1XVWTobyJe0texyYif-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-1" target="_j1XVWTobyJe0texyYif-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-1" value="Erhalte Input von LLM" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-1" value="Erhalte Input von LLM" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="10" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-12" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-3" target="_j1XVWTobyJe0texyYif-6">
+        <mxCell id="_j1XVWTobyJe0texyYif-12" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-3" target="_j1XVWTobyJe0texyYif-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <object label="nein" nein="" id="_j1XVWTobyJe0texyYif-19">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-3" target="_j1XVWTobyJe0texyYif-4">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-3" target="_j1XVWTobyJe0texyYif-4" edge="1">
             <mxGeometry relative="1" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="_j1XVWTobyJe0texyYif-3" value="Ist Risikokommunikation gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-3" value="Ist Risikokommunikation gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="350" y="130" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-4" value="Stopp:Keine Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-4" value="Stopp:Keine Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="470" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-15" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-6" target="_j1XVWTobyJe0texyYif-7">
+        <mxCell id="_j1XVWTobyJe0texyYif-15" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-6" target="_j1XVWTobyJe0texyYif-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-16" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-6" target="_j1XVWTobyJe0texyYif-8">
+        <mxCell id="_j1XVWTobyJe0texyYif-16" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-6" target="_j1XVWTobyJe0texyYif-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-6" value="Gibt es Zahleninformation" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-6" value="Gibt es Zahleninformation" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="210" y="210" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-7" target="_j1XVWTobyJe0texyYif-37">
+        <mxCell id="_j1XVWTobyJe0texyYif-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-7" target="_j1XVWTobyJe0texyYif-37" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-7" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-7" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-22" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-8" target="_j1XVWTobyJe0texyYif-20">
+        <mxCell id="_j1XVWTobyJe0texyYif-23" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-8" target="_j1XVWTobyJe0texyYif-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-23" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-8" target="_j1XVWTobyJe0texyYif-21">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-8" value="Gibt es mehrere Szenarien" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="300" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-79" value="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-78">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-80" value="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-81" value="0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="_j1XVWTobyJe0texyYif-83">
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-8" target="_j1XVWTobyJe0texyYif-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-180" y="560" as="targetPoint" />
+            <mxPoint x="-590" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-20" value="Wie viele absolute Risiken sind gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-493" y="450" width="80" height="80" as="geometry" />
+        <mxCell id="_j1XVWTobyJe0texyYif-8" value="Gibt es mehrere Szenarien" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="300" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-34" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-32">
+        <mxCell id="_j1XVWTobyJe0texyYif-79" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-20" target="8rDc2vxjKKu_qKKiSJV0-48" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-890" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-24" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-20" target="8rDc2vxjKKu_qKKiSJV0-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-67">
+        <mxCell id="_j1XVWTobyJe0texyYif-20" value="Ist absolute Risk base gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-640" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-34" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-21" value="Ist ein absolutes Risiko gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-21" target="_j1XVWTobyJe0texyYif-67" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_j1XVWTobyJe0texyYif-21" value="Ist ein absolutes Risiko gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="460" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-36" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-32" target="_j1XVWTobyJe0texyYif-35">
+        <mxCell id="_j1XVWTobyJe0texyYif-36" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-32" target="_j1XVWTobyJe0texyYif-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-49" value="Ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-32" target="_j1XVWTobyJe0texyYif-47">
+        <mxCell id="_j1XVWTobyJe0texyYif-49" value="Ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-32" target="_j1XVWTobyJe0texyYif-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-32" value="Ist absolute Zahl gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-32" value="Ist absolute Zahl gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="770" y="520" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-35" target="_j1XVWTobyJe0texyYif-39">
+        <mxCell id="_j1XVWTobyJe0texyYif-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-35" target="_j1XVWTobyJe0texyYif-39" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-35" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-35" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-37" value="Meldung: Keine Zahlenwerte gegeben" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-37" value="Meldung: Keine Zahlenwerte gegeben" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="400" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-39" value="Meldung: Weder absolute Zahl noch Risiko gegeben" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-39" value="Meldung: Weder absolute Zahl noch Risiko gegeben" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-41" target="_j1XVWTobyJe0texyYif-43">
+        <mxCell id="_j1XVWTobyJe0texyYif-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-41" target="_j1XVWTobyJe0texyYif-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-41" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-41" value="Stopp: Intransparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="700" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-43" value="Meldung: Keine Information über Größe GG, verifiziere!" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-43" value="Meldung: Keine Information über Größe GG, verifiziere!" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-52" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-47" target="_j1XVWTobyJe0texyYif-41">
+        <mxCell id="_j1XVWTobyJe0texyYif-52" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-47" target="_j1XVWTobyJe0texyYif-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-55" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-47" target="_j1XVWTobyJe0texyYif-53">
+        <mxCell id="_j1XVWTobyJe0texyYif-55" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-47" target="_j1XVWTobyJe0texyYif-53" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="160" y="730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-47" value="Ist Größe der Grundgesamtheit bekannt" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-47" value="Ist Größe der Grundgesamtheit bekannt" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="610" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-60" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-53" target="_j1XVWTobyJe0texyYif-59">
+        <mxCell id="_j1XVWTobyJe0texyYif-60" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-53" target="_j1XVWTobyJe0texyYif-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-53" target="_j1XVWTobyJe0texyYif-63">
+        <mxCell id="_j1XVWTobyJe0texyYif-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-53" target="_j1XVWTobyJe0texyYif-63" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-53" value="ist Quelle gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-53" value="ist Quelle gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="490" y="680" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-59" target="_j1XVWTobyJe0texyYif-61">
+        <mxCell id="_j1XVWTobyJe0texyYif-62" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-59" target="_j1XVWTobyJe0texyYif-61" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-59" value="Stopp: Potentiell transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-59" value="Stopp: Potentiell transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-61" value="Meldung: Verifiziere Quelle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-61" value="Meldung: Verifiziere Quelle" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="870" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-63" value="Stopp: Transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-63" value="Stopp: Transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="790" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-65" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-67" target="_j1XVWTobyJe0texyYif-69">
+        <mxCell id="_j1XVWTobyJe0texyYif-65" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_j1XVWTobyJe0texyYif-67" target="_j1XVWTobyJe0texyYif-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-66" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-67" target="_j1XVWTobyJe0texyYif-71">
+        <mxCell id="_j1XVWTobyJe0texyYif-66" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-67" target="_j1XVWTobyJe0texyYif-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-67" value="ist Quelle gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-67" value="ist Quelle gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="150" y="540" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-69" target="_j1XVWTobyJe0texyYif-70">
+        <mxCell id="_j1XVWTobyJe0texyYif-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="_j1XVWTobyJe0texyYif-69" target="_j1XVWTobyJe0texyYif-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-69" value="Stopp: Potentiell transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-69" value="Stopp: Potentiell transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-70" value="Meldung: Verifiziere Quelle" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-70" value="Meldung: Verifiziere Quelle" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="240" y="720" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-71" value="Stopp: Transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_j1XVWTobyJe0texyYif-71" value="Stopp: Transparente Risikokommunikation" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="630" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-77" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-493" y="560" width="80" height="80" as="geometry" />
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-4" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-83" target="8rDc2vxjKKu_qKKiSJV0-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-78" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-810" y="560" width="80" height="80" as="geometry" />
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-31" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_j1XVWTobyJe0texyYif-83" target="8rDc2vxjKKu_qKKiSJV0-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-82" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-830" y="670" width="120" height="60" as="geometry" />
+        <mxCell id="_j1XVWTobyJe0texyYif-83" value="Ist absolute Risk new gegeben" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-370" y="490" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_j1XVWTobyJe0texyYif-83" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-220" y="560" width="80" height="80" as="geometry" />
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-3" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="640" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-5" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-11" target="_j1XVWTobyJe0texyYif-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-11" value="Berechne absolutes Risiko" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="500" y="560" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-18" value="Ist GG Größe base gegeben&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1010" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-19" value="Ist relative Risk Difference gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-770" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-20" value="Ist absolute Risk Difference gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-21" value="Ist GG Größe new&lt;div&gt;&amp;nbsp;gegeben&amp;nbsp;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-890" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-22" value="Ist absolute number difference gegeben&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-530" y="940" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-26" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-23" target="8rDc2vxjKKu_qKKiSJV0-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-27" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-23" target="_j1XVWTobyJe0texyYif-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-23" value="Ist es errechenbar" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-480" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-25" target="8rDc2vxjKKu_qKKiSJV0-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-890" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-25" value="berechne absolute risk base+vermerke Berechnung" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-34" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-30" target="8rDc2vxjKKu_qKKiSJV0-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-35" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-30" target="8rDc2vxjKKu_qKKiSJV0-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-30" value="Ist es errechenbar" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="490" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-33" target="8rDc2vxjKKu_qKKiSJV0-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-33" value="berechne absolute risk new+vermerke Berechnung" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-290" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-46" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-48" target="8rDc2vxjKKu_qKKiSJV0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-47" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-48" target="8rDc2vxjKKu_qKKiSJV0-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-48" value="Ist absolute Risk new gegeben" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1157" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-49" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1267" y="650" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-50" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-907" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-51" value="ja" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-53" target="8rDc2vxjKKu_qKKiSJV0-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-52" value="nein" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-53" target="8rDc2vxjKKu_qKKiSJV0-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-53" value="Ist es errechenbar" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-997" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8rDc2vxjKKu_qKKiSJV0-55" target="8rDc2vxjKKu_qKKiSJV0-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="8rDc2vxjKKu_qKKiSJV0-55" value="berechne absolute risk new+vermerke Berechnung" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1077" y="620" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
