@@ -55,57 +55,18 @@ h2 {
 body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
-.warning-text {
-  color: #dc3545;
-  font-weight: 600;
-}
-.highlight.warning {
-  background-color: #fff3cd;
-  color: #664d03;
-  border-left: 4px solid #ffc107;
-  padding: 10px 12px;
-  margin: 0;
-  border-radius: 6px;
-  font-family: inherit;
-  white-space: pre-wrap;
+#output.Transparent {
+  border-color: #28a745;
+  background-color: #f1fcf1;
 }
 
-.highlight.warning:before {
-  content: "⚠️";
-  font-size: 18px;
-  margin-right: 4px;
-}
-.highlight.info::before {
-  content: "✅";
-  font-size: 18px;
-  margin-right: 4px;
+#output.Initially-Transparent {
+  border-color: #ffc107;
+  background-color: #fffbea;
 }
 
-.highlight.info {
-  background-color: #d1e7dd;
-  color: #0f5132;
-  border-left: 4px solid #0f5132;
-  padding: 10px 12px;
-  margin: 0;
-  border-radius: 6px;
-  font-family: inherit;
-}
-#output pre {
-  margin: 0;
-  padding: 0;
-}
-@keyframes zoomIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-#output.animated {
-  animation: zoomIn 1.5s ease-out;
+#output.Intransparent {
+  border-color: #dc3545;
+  background-color: #fff1f3;
 }
 
