@@ -1,14 +1,14 @@
 import pandas as pd
 
 # === 1. Load the Excel file ===
-df = pd.read_excel("Excel_version1506.xlsx")
+df = pd.read_excel("data_new_synth.xlsx")
 
 # === 2. Define the text and output fields ===
 text_col = "Unnamed: 0"
 
 output_fields = [
     'risk_communication',
-    'single_case_base',
+    'unrelated_risks',
     'absolute_risk_base',
     'absolute_risk_new',
     'absolute_number_base',
@@ -19,7 +19,6 @@ output_fields = [
     'verbal_descriptor_base',
     'verbal_descriptor_new',
     'verbal_descriptor_change',
-    'population_size',
     'reference_class_size_base',
     'reference_class_size_new',
     'reference_class_description_base',
