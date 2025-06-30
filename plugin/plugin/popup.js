@@ -1,3 +1,5 @@
+const SERVER_URL = "http://193.196.39.15:8000/extract-advice";
+
 document.getElementById("analyze").addEventListener("click", () => {
   const outputText = document.getElementById("outputText");
   const outputReference = document.getElementById("outputReference");
@@ -7,7 +9,7 @@ document.getElementById("analyze").addEventListener("click", () => {
   const spinner = document.getElementById("spinner");
 
   analyzeBtn.disabled = true;
- 
+
   // Text holen
   chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
     chrome.tabs.sendMessage(tabs[0].id, { action: "getSelectedText" }, (response) => {
@@ -30,114 +32,110 @@ document.getElementById("analyze").addEventListener("click", () => {
         spinner.style.display = "none";
         return;
       }
+
+      // Spinner und Status anzeigen
       analyzeText.innerText = "Analysiere...";
       spinner.style.display = "inline-block";
-      // Beispiel-Daten (Platzhalter für echte Analyse)
-      const data = {
-        message_quant: `Risk communication detected
-The tool detected quantitative risk information.
-Two risk scenarios for different treatment groups detected.
-The tool calculated the relative risk.
-The absolute risk in the base case is: 20.0%
-The absolute risk in the new case is: 30.0%
-The (calculated) relative risk increase is 50.0%`,
-        message_reference: "test",
-        message_source: `ATTENTION: source for the base risk situation is provided, but not for the new risk situation`,
-        message_verbal: "test",
-        eval_case: "L1_1"
-      };
-      // ⏱️ Künstliche Ladezeit: 2000 Millisekunden (2 Sekunden)
-      setTimeout(() => {
-      // HIER beginnt dein bisheriger Code mit Einfügen & Sichtbarkeit
- 
-      // Vorherige Klassen entfernen
-      ["outputText", "outputVerbal", "outputQuelle", "outputReference"].forEach(id => {
-        const el = document.getElementById(id);
-        el.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
-      });
 
-      // Ergebnis einfügen
-      outputText.innerText = data.message_quant;
-      outputReference.innerText = data.message_reference;
-      outputVerbal.innerText = data.message_verbal;
-      outputQuelle.innerText = data.message_source;
+      // ── Server-Request ───────────────────────────────────────────────
+      fetch(SERVER_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: selectedText })
+      })
+        .then((res) => {
+          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+          return res.json();
+        })
+        .then((data) => {
+          // Vorherige Klassen & Sichtbarkeit zurücksetzen
+          [outputText, outputReference, outputVerbal, outputQuelle].forEach((el) => {
+            el.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+            el.style.display = "none";
+          });
 
-      // Sichtbar machen
-      outputText.style.display = "block";
-      outputReference.style.display = "block";
-      outputVerbal.style.display = "block";
-      outputQuelle.style.display = "block";
+          // Serverantwort verarbeiten
+          outputText.innerText = data.message_quant;
+          outputReference.innerText = data.message_reference;
+          outputVerbal.innerText = data.message_verbal;
+          outputQuelle.innerText = data.message_source;
 
-      // Logik für Sonderfälle NR / UR
-      if (data.eval_case === "NR") {
-        outputText.innerText = "No Risk Communication detected";
-        outputReference.style.display = "none";
-        outputVerbal.style.display = "none";
-        outputQuelle.style.display = "none";
-      }
+          outputText.style.display = "block";
+          outputReference.style.display = "block";
+          outputVerbal.style.display = "block";
+          outputQuelle.style.display = "block";
 
-      if (data.eval_case === "UR") {
-        outputText.innerText = "Unrelated risks within the selected text. Please reselect different passage.";
-        outputReference.style.display = "none";
-        outputVerbal.style.display = "none";
-        outputQuelle.style.display = "none";
-      }
-      // Farblogik für Quelle
-      if (
-        data.message_source.trim() === "Both sources are provided. Please validate." ||
-        data.message_source.trim() === "A source is provided. Please validate."
-      ) {
-        outputQuelle.classList.add("Transparent");
-      } else {
-        outputQuelle.classList.add("Initially-Transparent");
-      }
+          // Logik für NR und UR
+          if (data.eval_case === "NR") {
+            outputText.innerText = "No Risk Communication detected";
+            outputReference.style.display = "none";
+            outputVerbal.style.display = "none";
+            outputQuelle.style.display = "none";
+          }
 
-      // Farblogik für Reference
-      if (
-        data.message_reference.trim() ===
-        "Our tool could not detect any reference class descriptions in the given text extract."
-      ) {
-        outputReference.classList.add("Intransparent");
-      } else {
-        outputReference.classList.add("Transparent");
-      }
+          if (data.eval_case === "UR") {
+            outputText.innerText = "Unrelated risks within the selected text. Please reselect different passage.";
+            outputReference.style.display = "none";
+            outputVerbal.style.display = "none";
+            outputQuelle.style.display = "none";
+          }
 
-      // Farblogik für Verbal
-      if (data.message_verbal.trim()) {
-        outputVerbal.classList.add("Initially-Transparent");
-      } else {
-        outputVerbal.style.display = "none";
-      }
+          // Farblogik Quelle
+          if (
+            data.message_source.trim() === "Both sources are provided. Please validate." ||
+            data.message_source.trim() === "A source is provided. Please validate."
+          ) {
+            outputQuelle.classList.add("Transparent");
+          } else {
+            outputQuelle.classList.add("Initially-Transparent");
+          }
 
-      // Mapping eval_case → CSS-Klasse
-      const caseToClass = {
-        L1_1: "Transparent",
-        L1_2: "Transparent",
-        L2: "Initially-Transparent",
-        L3: "Intransparent",
-        L4: "Intransparent",
-        R1_1: "Intransparent", // Achtung: war doppelt!
-        R2_1: "Initially-Transparent",
-        R3_1: "Intransparent",
-        R4_1: "Intransparent",
-        R2_2: "Intransparent",
-        R3_2: "Intransparent",
-        R4_2: "Intransparent",
-        NN2: "Intransparent",
-        NNB: "Intransparent",
-        NNN: "Intransparent"
-      };
+          // Farblogik Reference
+          if (
+            data.message_reference.trim() ===
+            "Our tool could not detect any reference class descriptions in the given text extract."
+          ) {
+            outputReference.classList.add("Intransparent");
+          } else {
+            outputReference.classList.add("Transparent");
+          }
 
-      const caseClass = caseToClass[data.eval_case];
-      if (caseClass) {
-        outputText.classList.add(caseClass);
-      }
+          // Farblogik Verbal
+          if (data.message_verbal.trim()) {
+            outputVerbal.classList.add("Initially-Transparent");
+          } else {
+            outputVerbal.style.display = "none";
+          }
 
-      // Spinner & Button zurücksetzen
-      analyzeBtn.disabled = false;
-      analyzeText.innerText = "Analysieren";
-      spinner.style.display = "none";
-      }, 2000);
-    }); // Ende chrome.tabs.sendMessage
-  });   // Ende chrome.tabs.query
-});     // Ende addEventListener
+          // Mapping eval_case → CSS-Klasse
+          const caseToClass = {
+            L1: "Transparent",
+            L2: "Initially-Transparent",
+            L3: "Intransparent",
+            L4: "Intransparent",
+            R1_1: "Transparent",
+            R2_1: "Initially-Transparent",
+            R3_1: "Intransparent",
+            R1_2: "Transparent",
+            R2_2: "Initially-Transparent",
+            R3_2: "Intransparent",
+            NN: "Intransparent"
+          };
+
+          const caseClass = caseToClass[data.eval_case];
+          if (caseClass) {
+            outputText.classList.add(caseClass);
+          }
+        })
+        .catch((err) => {
+          outputText.innerText = "❌ Fehler beim Serveraufruf: " + err.message;
+          outputText.style.display = "block";
+        })
+        .finally(() => {
+          analyzeBtn.disabled = false;
+          analyzeText.innerText = "Analysieren";
+          spinner.style.display = "none";
+        });
+    });
+  });
+});
