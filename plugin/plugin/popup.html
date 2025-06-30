@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
   <meta charset="UTF-8">
   <title>Risk Analyzer</title>
   <link rel="stylesheet" href="popup.css">
 </head>
-  <body>
-    <button id="analyze">Analysieren</button>
-    <div id="results">
-  <div class="output-section">
-    <div class="output-box" id="output-text">Die Auswertung erscheint hier</div>
-  </div>
-
-  <div class="output-section">
-    <div class="output-box" id="output-verbal"></div>
-  </div>
-
-  <div class="output-section">
-    <div class="output-box" id="output-source"></div>
-  </div>
-</div>
-    <script src="popup.js"></script>
-  </body>
+<body>
+  <button id="analyze">
+  <span id="analyzeText">Analysieren</span>
+  <span id="spinner" style="display: none;">⏳</span>
+</button>
+  <pre id="outputText" class="output-box" data-title="Evaluation"></pre>
+  <pre id="outputReference" class="output-box" data-title="Reference class"></pre>
+  <pre id="outputVerbal" class="output-box" data-title="Verbal Risks"></pre>
+  <pre id="outputQuelle" class="output-box" data-title="Source"></pre>
+  <script src="popup.js"></script>
+</body>
 </html>

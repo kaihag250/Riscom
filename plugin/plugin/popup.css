@@ -1,28 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+body, * {
+  font-family: 'Manrope', sans-serif;
+}
 body {
   width: 470px;
   padding: 16px;
   margin: 0;
   border: 4px solid #3f414bbe; /* Standard-Rahmen */
   border-radius: 8px;
-  font-family: "Segoe UI", system-ui, sans-serif;
   background-color: #ffffff;
   box-sizing: border-box;
   color: #212529;
   transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
-}
-body.Transparent {
-  border-color: #28a745;
-  box-shadow: 0 0 10px rgba(40, 167, 69, 0.3);
-}
-
-body.Initially-Transparent {
-  border-color: #ffc107;
-  box-shadow: 0 0 10px rgba(255, 193, 7, 0.3);
-}
-
-body.Intransparent {
-  border-color: #dc3545;
-  box-shadow: 0 0 10px rgba(220, 53, 69, 0.3);
 }
 /* === Titel / Überschrift === */
 h2 {
@@ -60,7 +50,7 @@ h2 {
   border-radius: 6px;
   font-size: 14px;
   white-space: pre-wrap;
-  min-height: 60px;
+  min-height: 30px;
   color: #343a40;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
@@ -69,37 +59,30 @@ h2 {
 body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
 }
-#output.Transparent {
-  border-color: #28a745;
+#outputText.Transparent,
+#outputVerbal.Transparent,
+#outputReference.Transparent,
+#outputQuelle.Transparent {
+  border-color: #006c22;
   background-color: #f1fcf1;
 }
 
-#output.Initially-Transparent {
-  border-color: #ffc107;
+#outputText.Initially-Transparent,
+#outputReference.Initially-Transparent,
+#outputVerbal.Initially-Transparent,
+#outputQuelle.Initially-Transparent {
+  border-color: #f4ff22;
   background-color: #fffbea;
 }
 
-#output.Intransparent {
+#outputText.Intransparent,
+#outputVerbal.Intransparent,
+#outputReference.Intransparent,
+#outputQuelle.Intransparent {
   border-color: #dc3545;
   background-color: #fff1f3;
 }
-/* === Grüner Button bei transparenter Kommunikation === */
-#analyze.Transparent {
-  background-color: #d4f8e8; /* hellgrün */
-  color: #155724; /* dunkles Grün für Text */
-}
 
-/* === Gelber Button bei mittlerer Kommunikation === */
-#analyze.Initially-Transparent {
-   background-color: #d4f8e8; /* hellgrün */
-  color: #ffc107; /* dunkles Grün für Text */
-}
-
-/* === Roter Button bei intransparenter Kommunikation === */
-#analyze.Intransparent {
- background-color: #f8d7da; /* hellrot */
-  color: #721c24;
-}
 .output-section {
   margin-top: 16px;
 }
@@ -111,12 +94,123 @@ body {
 }
 
 .output-box {
+  display: none; /* Unsichtbar am Anfang */
+  margin-top: 10px;
   padding: 14px;
   background-color: #f1f3f5;
   border: 1px dashed #ced4da;
   border-radius: 6px;
   font-size: 14px;
   white-space: pre-wrap;
+  min-height: 30px;
   color: #343a40;
   transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+/* Dynamische Überschrift zentriert oben */
+.output-box::before {
+  content: attr(data-title); /* Titel aus HTML-Attribut */
+  position: absolute;
+  top: -0.7em;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0 8px;
+  background-color: inherit;     /* übernimmt Hintergrundfarbe der Box */
+  color: inherit;                /* übernimmt Textfarbe */
+  border: inherit;               /* übernimmt Randstil */
+  font-weight: bold;
+  font-size: 0.85em;
+}
+#outputText {
+  position: relative;
+  padding-top: 1.5em; /* Platz oben für die Legende */
+  border: 1px dashed ;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Pseudoelement für mittige Überschrift */
+#outputText::before {
+  content: "Evaluation";
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; /* Gleicher Hintergrund wie außen */
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+#outputReference {
+  position: relative;
+  padding-top: 1.5em; /* Platz oben für die Legende */
+  border: 1px dashed;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Pseudoelement für mittige Überschrift */
+#outputReference::before {
+  content: "Reference class";
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; /* Gleicher Hintergrund wie außen */
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+#outputVerbal {
+  position: relative;
+  padding-top: 1.5em; /* Platz oben für die Legende */
+  border: 1px dashed;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Pseudoelement für mittige Überschrift */
+#outputVerbal::before {
+  content: "Verbal risks";
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; /* Gleicher Hintergrund wie außen */
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+#outputQuelle {
+  position: relative;
+  padding-top: 1.5em; /* Platz oben für die Legende */
+  border: 1px dashed ;
+  border-radius: 6px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+/* Pseudoelement für mittige Überschrift */
+#outputQuelle::before {
+  content: "Source";
+  position: absolute;
+  top: -0.6em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white; /* Gleicher Hintergrund wie außen */
+  padding: 0 8px;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+#spinner {
+  margin-left: 8px;
+  animation: spin 1s linear infinite;
+  display: inline-block;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }
