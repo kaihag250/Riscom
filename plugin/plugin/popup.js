@@ -1,40 +1,50 @@
 document.getElementById("analyze").addEventListener("click", () => {
-  const output = document.getElementById("output");
+ const outputText = document.getElementById("output-text");
+ const outputVerbal = document.getElementById("output-verbal");
+ const outputQuelle = document.getElementById("output-source");
+ const analyzeBtn = document.getElementById("analyze");
 
-  // Statt API-Call: Simulierter Server-Output zum Testen der Visuals
-  // ❗ Nur EINE Variante aktiv lassen, die anderen auskommentieren
+  // Schritt 1: Text vom aktiven Tab holen
+  chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+    chrome.tabs.sendMessage(tabs[0].id, { action: "getSelectedText" }, (response) => {
+      const selectedText = response?.text?.trim();
 
-  // Variante 1: TRANSPARENT
-  const data = {
-    label: "Transparent",
-    response: "✅ Die Risikokommunikation ist transparent."
-  };
+      if (!selectedText) {
+        output.innerText = "⚠️ Kein Text markiert.";
+        return;
+      }
+      if (selectedText.length > 300) {
+        output.innerText = `⚠️ Der markierte Text überschreitet die maximale Zeichenanzahl`;
+        return;
+      }
+      // ✅ Fake-Serverantwort zum Testen (nur "Transparent")
+      const data = {
+        response: "☑️ Die Risikokommunikation ist transparent.",
+        label: "Initially Transparent", // → du kannst hier auch "initially transparent" oder "intransparent" testen
+        source:"",
+        verbal:""
+      };
 
-  // Variante 2: INITIALLY TRANSPARENT
-  /*
-  const data = {
-    label: "Initially Transparent",
-    response: "⚠️ Die Risikokommunikation ist anfangs transparent."
-  };
-  */
+      // Text anzeigen
+      outputText.innerText = data.response;
+      outputVerbal.innerText = data.verbal;
+      outputQuelle.innerText = data.source;
 
-  // Variante 3: INTRANSPARENT
-  /*
-  const data = {
-    label: "Intransparent",
-    response: "❌ Die Risikokommunikation ist intransparent."
-  };
-  */
+      // Risiko-Label normalisieren
+      const label = (data.label || "").trim();
 
-  // Ausgabe anzeigen
-  output.innerText = data.response;
+      // Alte Klassen entfernen
+      document.body.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+      output.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+      analyzeBtn.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
 
-  // Vorherige Klassen entfernen
-  output.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
-
-  // Neue Klasse hinzufügen (für CSS-Styling)
-  if (["Transparent", "Initially Transparent", "Intransparent"].includes(data.label)) {
-    const cssClass = data.label.replace(/\s/g, "-"); // z. B. "Initially Transparent" → "Initially-Transparent"
-    output.classList.add(cssClass);
-  }
+      // Neue Klasse setzen
+      if (["Transparent", "Initially Transparent", "Intransparent"].includes(label)) {
+        const className = label.replace(/ /g, "-");
+        document.body.classList.add(className);
+        output.classList.add(className);
+        analyzeBtn.classList.add(className);
+      }
+    });
+  });
 });

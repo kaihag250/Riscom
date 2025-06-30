@@ -10,6 +10,11 @@ document.getElementById("analyze").addEventListener("click", () => {
         output.innerText = "⚠️ Kein Text markiert.";
         return;
       }
+       // 🔴 Text ist zu lang
+      if (selectedText.length > 500) {
+        output.innerText = `⚠️ Der markierte Text überschreitet die maximale Zeichenanzahl`;
+        return;
+      }
 
       // Prompt erstellen
       const prompt =`### Instruction:
@@ -52,26 +57,31 @@ Sample Text: ${selectedText}`;
     return res.json();
   })
   .then(data => {
-    // Text anzeigen
-    output.innerText = data.response || "Keine Antwort erhalten.";
+  // Text anzeigen
+  output.innerText = data.response || "Keine Antwort erhalten.";
 
-    // Risiko-Label aus der Antwort (z.B. "gut", "mittel", "schlecht")
-    const label = (data.label || "").toLowerCase().trim();
+  // Risiko-Label aus der Antwort (z.B. "transparent", ...)
+  const label = (data.label || "").trim();
 
-    // Alte Klassen entfernen (für visuellen Status)
+  // Alte Klassen entfernen
+  document.body.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+  output.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+  const analyzeBtn = document.getElementById("analyze");
+  analyzeBtn.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+
+  // Neue Klassen hinzufügen, falls Label bekannt
+  if (["Transparent", "Initially Transparent", "Intransparent"].includes(label)) {
+    const riskClass = label.replace(/ /g, "-");
+    document.body.classList.add(riskClass);
+    output.classList.add(riskClass);
+    analyzeBtn.classList.add(riskClass);
+  } else {
+    // Optional: fallback
     document.body.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
     output.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
-
-    // Neue Klassen hinzufügen, falls Label bekannt
-    if (["Transparent", "Initially Transparent", "Intransparent"].includes(label)) {
-      document.body.classList.add(`risk-${label}`);
-      output.classList.add(`risk-${label}`);
-    } else {
-      // Optional: Fallback-Klasse oder Entfernen aller Styles
-      document.body.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
-      output.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
-    }
-  })
+    analyzeBtn.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
+  }
+})
   .catch(err => {
     output.innerText = "❌ Fehler beim Abrufen der API.";
     console.error("API Fehler:", err);
@@ -79,3 +89,4 @@ Sample Text: ${selectedText}`;
 });
 });
 });
+

@@ -1,5 +1,5 @@
 chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
-  if (request.action === "getSelection") {
+  if (request.action === "getSelectedText") {
     let selectedText = "";
 
     // Versuch 1: Normale Markierung
