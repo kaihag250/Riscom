@@ -36,7 +36,7 @@
     
 
 - **Only a relative risk is detected:**
-  - - A relative risk is identified, but no absolute risk could be extracted or calculated.
+  - A relative risk is identified, but no absolute risk could be extracted or calculated.
   - ⚠️ A relative risk alone is **not sufficient to interpret risk levels**
 
 - **Only an absolute risk difference is detected:**
