@@ -1,7 +1,7 @@
 import pandas as pd
 
 # === 1. Load the Excel file ===
-df = pd.read_excel("0507Data_no_source.xlsx")
+df = pd.read_excel("0507data_with_source.xlsx")
 
 # === 2. Define the text and output fields ===
 text_col = "Unnamed: 0"
@@ -23,6 +23,8 @@ output_fields = [
     'reference_class_size_new',
     'reference_class_description_base',
     'reference_class_description_new',
+    'source_base',
+    'source_new'
 ]
 # === 3. Format output string ===
 def format_output(row):
