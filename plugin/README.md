@@ -20,21 +20,19 @@
                  Users should avoid relying solely on this value in sensitive interpretations.
     
 - **Absolute risk < 1%:**
-  - Risks below 1% are displayed as *x / 100,000* to improve clarity and readability.
+  - Risks below 1% are also displayed as *x / 100,000* to improve clarity and readability.
+    
+- **Dealing with verbal risk descriptors:**
+  - The tool handles verbal risk descriptors connected to quantitative information differently:
+  - If the text contains an approximate statement like "The absolute risk is nearly 10%",
+    the tool interprets this as a quantitative value and treats it as 10% in further calculations.
+  - ⚠️ However, if the text contains a relative formulation like "The risk almost doubles",
+    the tool recognizes this as a verbal descriptor and does not assign a numerical value.
     
 - **No risk communication detected:**
   - The tool reports that no risk communciation was found.
   - The tool immediately stops and does not continue with extracting values. 
     
-- **Verbal descriptors are detected:**
-  - If the text contains an approximate statement like "The absolute risk is nearly 10%",
-    the tool interprets this as a quantitative value and treats it as 10% in further calculations.
-  - However, if the text contains a relative formulation like "The risk almost doubles",
-    the tool recognizes this as a verbal descriptor and does not assign a numerical value.
-  - Reason: Absolute approximations still provide a usable number, while relative phrases lack a clear reference point and are too
-            ambiguous to quantify reliably.
-    
-
 - **Only a relative risk is detected:**
   - A relative risk is identified, but no absolute risk could be extracted or calculated.
   - ⚠️ A relative risk alone is **not sufficient to interpret risk levels**
@@ -46,5 +44,34 @@
 
 
 **General information about risk communication**
-- Hier links einbauen zu Risikoinformations-Wikis
-- Difference between relative risk and relative risk increase/ decrease
+- **What is a risk?**
+  - A risk describes how likely it is that a specific event will occur. The term refers to probability and is not limited to negative
+    outcomes, although it often is in everyday understanding. In the context of risk communication, the term "risk" can typically be
+    replaced by "likelihood".
+  
+- **When is risk communication transparent?**
+  - If the text describes only one risk scenario, the communication is transparent only if the absolute risk is stated.
+  - If the text describes two risk scenarios (referred to as base case and new case), the communication is transparent only if the absolute risk is reported for both cases.
+
+- **Verbal descriptors are detected:**
+  - ⚠️ Be careful when trying to interpret verbal risk descriptors, e.g. high risk, since they can mean many different things if not
+       explicitly defined.
+    
+- **Definitions of important terms for understanding risk communication:**
+  - **Absolute risk:**
+    Absolute risk refers to the actual probability that a specific event (e.g., illness, recovery, death) occurs in a group.
+    It is preferred over relative risk and should always be reported for all comparison groups or time points.
+    It can be expressed as percentages or as natural frequencies (e.g., “5 out of 100 people”).
+  - **Absolute risk difference:**
+    Absolute risk difference is the numerical difference between two absolute risks (e.g., 0.06% – 0.02% = 0.04 percentage points).
+    It reflects the actual change in risk.
+    Unlike relative risk, it avoids overestimating effects when the base risk is low.
+    A large relative risk can still correspond to a small absolute risk difference.
+  - **Relative risk:**
+    A relative risk compares the likelihood of an event between two groups — often expressed as multiples ("3 times more likely") or
+    percentages ("50% less likely").
+    Relative risks can easily be misleading and tend to cause overestimation of actual risk.
+    They should never be presented without the corresponding absolute risks (especially the baseline risk in the comparison group).
+    Transparent communication requires at least stating at the absolute risk for the base case.
+  - **Relative risk increase/ decrease:**
+  - **Reference class:**
