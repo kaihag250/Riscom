@@ -1,7 +1,7 @@
 import pandas as pd
 
 # === 1. Load the Excel file ===
-df = pd.read_excel("data_new_synth.xlsx")
+df = pd.read_excel("Testing.xlsx")
 
 # === 2. Define the text and output fields ===
 text_col = "Unnamed: 0"
@@ -24,8 +24,7 @@ output_fields = [
     'reference_class_description_base',
     'reference_class_description_new',
     'source_base',
-    'source_new',
-    'topic_and_unit'
+    'source_new'
 ]
 # === 3. Format output string ===
 def format_output(row):
