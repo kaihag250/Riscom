@@ -7,6 +7,13 @@ from sklearn.metrics import classification_report
 #the ground_truth.csv the code refers to is manually labelled data and the text data should be 
 # carefully chosen, differing in quality and type of risk communication in order to get a representative evaluation
 
+
+#the evaluation_log.csv created is for manual checking
+
+#the text_field_review.csv is for manually comparing the test fields
+#no automatic evaluation has been implemented here for text fields
+
+
 # automatic path to folder of this python script
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PREDICTION_FILE = os.path.join(SCRIPT_DIR, "model_output.csv")
@@ -96,6 +103,13 @@ print(f"\n {len(common_columns)} extraction categories are being compared for th
 ##now the real evalutation starts for each of the three different categories:
 
 # 1. Classifications: F1, Precision, Recall
+
+#precision: is the percentage of predicted positives that were actually correct
+# recall: is the percentage of actual positives that were successfully predicted
+#f1-score:  is the harmonic mean of precision and recall, balancing both
+#support:  is the number of true examples for each class in the dataset
+
+
 print("Classifikation:")
 for col in classification_columns:
     if col in common_columns:
