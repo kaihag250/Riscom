@@ -1,0 +1,4901 @@
+InputText,Output
+"If you use the Scalable app, your chances of becoming rich are significantly higher.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+If you use the Scalable app, your chances of becoming rich are significantly higher.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: significantly higher
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people who use Scalable app
+source_base: null
+source_new: null"
+Exchange rate risk refers to the risk that a company’s operations and profitability may be affected by changes in the exchange rates between currencies.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Exchange rate risk refers to the risk that a company’s operations and profitability may be affected by changes in the exchange rates between currencies.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+Infamous economists continue to see a 1-in-3 chance of a U.S. recession in the next 12 months.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Infamous economists continue to see a 1-in-3 chance of a U.S. recession in the next 12 months.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/3
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: recession within the next 12 months
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"The average risk of default for US public companies hit 9.2% at the end of 2024, the highest since the global financial crisis, according to a Moody’s Asset Management report released on Tuesday.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The average risk of default for US public companies hit 9.2% at the end of 2024, the highest since the global financial crisis, according to a Moody’s Asset Management report released on Tuesday.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 9,20%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: highest since the global financial crisis
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: US public companies
+reference_class_description_new: null
+source_base: Moody’s Asset Management
+source_new: null"
+"The probability of a severe credit crunch in the euro area banking sector is now estimated at 15%, down from 22% six months ago, reflecting improved liquidity buffers and lower market stress.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The probability of a severe credit crunch in the euro area banking sector is now estimated at 15%, down from 22% six months ago, reflecting improved liquidity buffers and lower market stress.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 22%
+absolute_risk_new: 15%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: euro area banking sector
+reference_class_description_new: euro area banking sector
+source_base: null
+source_new: null"
+"In a baseline scenario, central bank economists assign a 1-in-10 chance that core inflation will exceed 3.5% in 2026, citing wage dynamics and delayed pass-through effects.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In a baseline scenario, central bank economists assign a 1-in-10 chance that core inflation will exceed 3.5% in 2026, citing wage dynamics and delayed pass-through effects.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/10
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: core inflation in 2026
+reference_class_description_new: null
+source_base: central bank economists
+source_new: null
+### Input:
+The World Health Organization (WHO) estimates that 1 in 10 people globally have a common mental disorder, such as depression or anxiety.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/10
+absolute_risk_new: null"
+"Bankers from J.P. Morgan think the signal that excludes the yield curve is most informative: Rather than a 30% chance of a recession in 2025, it projects a 12% chance.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Bankers from J.P. Morgan think the signal that excludes the yield curve is most informative: Rather than a 30% chance of a recession in 2025, it projects a 12% chance.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 0.3
+absolute_risk_new: 0.12
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: recession in 2025
+reference_class_description_new: recession in 2025
+source_base: J.P. Morgan
+source_new: J.P. Morgan"
+"Goldman Sachs reduced its U.S. recession forecast to 35% from 45%, sending a positive message to the stock market.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Goldman Sachs reduced its U.S. recession forecast to 35% from 45%, sending a positive message to the stock market.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 45%
+absolute_risk_new: 35%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: U.S. recession outlook
+reference_class_description_new: U.S. recession outlook
+source_base: Goldman Sachs
+source_new: Goldman Sachs"
+"On Monday, the U.S. and China agreed to reduce tariffs on each other's imports for 90 days., with the U.S. lowering its tariffs on Chinese goods to 30% from 145% and China cutting duties on U.S. imports to 10% from 125%.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+On Monday, the U.S. and China agreed to reduce tariffs on each other's imports for 90 days., with the U.S. lowering its tariffs on Chinese goods to 30% from 145% and China cutting duties on U.S. imports to 10% from 125%.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Food inflation is expected to increase to 2.9% in the second quarter of 2025, driven by an upward base effect and a sharp increase in unprocessed food prices, as well as by a large increase in food commodity prices.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Food inflation is expected to increase to 2.9% in the second quarter of 2025, driven by an upward base effect and a sharp increase in unprocessed food prices, as well as by a large increase in food commodity prices.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: 2.9%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: food inflation in Q2 2025
+reference_class_description_new: food inflation in Q2 2025
+source_base: null
+source_new: null"
+The companies revenue increased by 10% last year,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The companies revenue increased by 10% last year
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"According to 2023 findings from the Global Retirement Index, 7.2% of Indian retirees were underfunded, with projections suggesting the number could reach 16 million by 2036.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to 2023 findings from the Global Retirement Index, 7.2% of Indian retirees were underfunded, with projections suggesting the number could reach 16 million by 2036.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 7,20%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 16000000.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: retirees in India
+reference_class_description_new: retirees in India
+source_base: the 2023 Global Retirement Index
+source_new: the 2023 Global Retirement Index"
+But recent data suggested that many children today are not receiving the vision screenings needed to flag potential issues: Those between 6 and 17 years who had their vision tested in the previous 2 years dropped from 84.6% in 2016 to 79.6% in 2023.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+But recent data suggested that many children today are not receiving the vision screenings needed to flag potential issues: Those between 6 and 17 years who had their vision tested in the previous 2 years dropped from 84.6% in 2016 to 79.6% in 2023.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 84,60%
+absolute_risk_new: 79,60%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children between 6 and 17 years old who had their vision tested in 2016
+reference_class_description_new: children between 6 and 17 years old who had their vision tested in 2023
+source_base: null
+source_new: null"
+"Both men and women athletes suffer from concussions, but they occur at a substantially higher rate for women in many sports.Consider, for instance, ice hockey. The concussion rate for adult women's ice hockey is 39% higher than it is for adult men's ice hockey, according to one systematic review published in the scientific journal Sports Medicine.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Both men and women athletes suffer from concussions, but they occur at a substantially higher rate for women in many sports.Consider, for instance, ice hockey. The concussion rate for adult women's ice hockey is 39% higher than it is for adult men's ice hockey, according to one systematic review published in the scientific journal Sports Medicine.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1,39
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: adult men's ice hockey
+reference_class_description_new: adult women's ice hockey
+source_base: null
+source_new: null"
+"Lyme disease cases in Michigan have increased by 168% over the last five years, the Michigan Department of Health and Human Services said. The state recorded 1,215 cases in 2024, compared to 452 cases in 2020.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Lyme disease cases in Michigan have increased by 168% over the last five years, the Michigan Department of Health and Human Services said. The state recorded 1,215 cases in 2024, compared to 452 cases in 2020.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 452
+absolute_number_new: 1215.0
+absolute_risk_difference: null
+relative_risk: 2.68
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: Michigan residents
+reference_class_description_new: Michigan residents
+source_base: Michigan Department of Health and Human Services
+source_new: Michigan Department of Health and Human Services"
+"More than 80 autoimmune diseases are known, some of which are caused by exposure to environmental toxins and have no discovered cure. At least 15 million people in the United States, or about 5% of the population, have an autoimmune disease, the agency reports.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+More than 80 autoimmune diseases are known, some of which are caused by exposure to environmental toxins and have no discovered cure. At least 15 million people in the United States, or about 5% of the population, have an autoimmune disease, the agency reports.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 5%
+absolute_risk_new: null
+absolute_number_base: 15000000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: population in the United States
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Not getting enough sunlight can also pose significant risks. Research suggests that a lack of sun exposure may be linked to 340,000 deaths in the United States each year. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Not getting enough sunlight can also pose significant risks. Research suggests that a lack of sun exposure may be linked to 340,000 deaths in the United States each year.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 340000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in the United States
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"They tested nearly 200 unique products across several brands. Around 17% -- roughly one in six -- were found to have incorrect active ingredient levels, including products used in major hospitals.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+They tested nearly 200 unique products across several brands. Around 17% -- roughly one in six -- were found to have incorrect active ingredient levels, including products used in major hospitals.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/6
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: roughly one in six
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: 200
+reference_class_size_new: null
+reference_class_description_base: unique products across several brands
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"While globally suicide ranks third for youth mortality, in India, it is surpassed only by road accidents. The share of suicides is slightly higher among young women (18.2%) than men (16.3%)","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+While globally suicide ranks third for youth mortality, in India, it is surpassed only by road accidents. The share of suicides is slightly higher among young women (18.2%) than men (16.3%)
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 17.3%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: young people in India
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"By the mid-20th century, tuberculosis in the United States and Europe had already declined thanks to improved nutrition and living conditions. Once treatments arrived in the 1950s, deaths tumbled: by the late 1980s, they had fallen by over 90% in the United States. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+By the mid-20th century, tuberculosis in the United States and Europe had already declined thanks to improved nutrition and living conditions. Once treatments arrived in the 1950s, deaths tumbled: by the late 1980s, they had fallen by over 90% in the United States.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,1
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in United States and Europe before mid-20th century
+reference_class_description_new: people in United States in late 1980s
+source_base: null
+source_new: null"
+"Glaucoma affects about 700,000 people in the UK. A report by the Royal College of Ophthalmologists suggests cases could rise by 22% by 2035.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Glaucoma affects about 700,000 people in the UK. A report by the Royal College of Ophthalmologists suggests cases could rise by 22% by 2035.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 700000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1,22
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in the UK with glaucoma
+reference_class_description_new: people in the UK with glaucoma
+source_base: A report by the Royal College of Ophthalmologists
+source_new: A report by the Royal College of Ophthalmologists"
+The prevalence of dry eye varies significantly across demographics. Women are almost twice as likely to develop the condition compared to men (8.8% vs. 4.5%),"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The prevalence of dry eye varies significantly across demographics. Women are almost twice as likely to develop the condition compared to men (8.8% vs. 4.5%)
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 8,80%
+absolute_risk_new: 4,50%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: almost twice as likely
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: women
+reference_class_description_new: men
+source_base: null
+source_new: null"
+"The number of follicles progressively declines with age. By age 30, most women have only about 12% of the egg cells they were born with. After a certain point they lose follicles at a faster rate, though it's not known why. By age 40, a mere 3% may remain.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The number of follicles progressively declines with age. By age 30, most women have only about 12% of the egg cells they were born with. After a certain point they lose follicles at a faster rate, though it's not known why. By age 40, a mere 3% may remain.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: 3%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: about 12%
+verbal_descriptor_new: mere 3%
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: eggs at birth
+reference_class_description_new: eggs at age 40
+source_base: null
+source_new: null"
+"In the summer of 2022, Paris recorded 37 heat-related deaths, while in 2023 the number rose to 65.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In the summer of 2022, Paris recorded 37 heat-related deaths, while in 2023 the number rose to 65.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 37
+absolute_number_new: 65.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in Paris who died from heat exposure in 2022
+reference_class_description_new: people in Paris who died from heat exposure in 2023
+source_base: null
+source_new: null"
+"According to a recent report by the World Health Organization, a resurgence of measles outbreaks in sub-Saharan Africa is considered likely within the next two years.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to a recent report by the World Health Organization, a resurgence of measles outbreaks in sub-Saharan Africa is considered likely within the next two years.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: considered likely
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: sub-Saharan Africa within the next two years
+source_base: null
+source_new: World Health Organization
+### Input:
+A new study published in the journal Nature finds that the risk of developing Alzheimer's disease is significantly higher for people who have experienced traumatic brain injuries.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_"
+"Estimates now range from about 5 per 100,000 to 39 per 100,000 among hospitalized children, suggesting pulmonary embolism is more common than previously estimated.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Estimates now range from about 5 per 100,000 to 39 per 100,000 among hospitalized children, suggesting pulmonary embolism is more common than previously estimated.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 22/100000
+absolute_risk_new: 39/100000
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: hospitalized children
+reference_class_description_new: hospitalized children
+source_base: null
+source_new: null"
+"According to CDC estimates, overdose deaths in the U.S. dropped from 105,000 in 2023 to 77,000 in 2024 — a 27% decline, marking an unprecedented improvement.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to CDC estimates, overdose deaths in the U.S. dropped from 105,000 in 2023 to 77,000 in 2024 — a 27% decline, marking an unprecedented improvement.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 105000
+absolute_number_new: 77000.0
+absolute_risk_difference: null
+relative_risk: 0,73
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in the U.S.
+reference_class_description_new: people in the U.S.
+source_base: null
+source_new: null"
+"In the U.S., 12.3% of chronic disease deaths in 2019 were linked to overweight and obesity — a sharp rise from 6.1% in 1990.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In the U.S., 12.3% of chronic disease deaths in 2019 were linked to overweight and obesity — a sharp rise from 6.1% in 1990.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 6,10%
+absolute_risk_new: 12,30%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: deaths from chronic diseases in the US in 1990
+reference_class_description_new: deaths from chronic diseases in the US in 2019
+source_base: null
+source_new: null"
+"A recent study found that 4.4% of individuals aged 12 and older in Bavaria — about 260,000 people — misuse opioids, nearly four times the national average of Germany.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+A recent study found that 4.4% of individuals aged 12 and older in Bavaria — about 260,000 people — misuse opioids, nearly four times the national average of Germany.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: 4,40%
+absolute_number_base: null
+absolute_number_new: 260000.0
+absolute_risk_difference: null
+relative_risk: 4
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: nearly four times
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in Germany
+reference_class_description_new: people in Bavaria
+source_base: study
+source_new: study
+### Input:
+A recent study found that 4.4% of individuals aged 12 and older in Bavaria — about 260,000 people — misuse opioids, nearly four times the national average of Germany.
+
+### Output:
+risk_communication: 1
+unrelated_risks:"
+UK Biobank data shows normal-weight individuals who walk slowly have a 3.9x higher risk of dying from COVID-19 than brisk walkers of the same weight.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+UK Biobank data shows normal-weight individuals who walk slowly have a 3.9x higher risk of dying from COVID-19 than brisk walkers of the same weight.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 3,9
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: 3.9x higher risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: brisk walkers of the same weight
+reference_class_description_new: normal-weight individuals who walk slowly
+source_base: UK Biobank data
+source_new: UK Biobank data"
+"India bears the highest rabies toll in the world, accounting for 35% of global deaths estimated at 18,000 to 20,000 lives lost annually, according to WHO and Health Ministry data.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+India bears the highest rabies toll in the world, accounting for 35% of global deaths estimated at 18,000 to 20,000 lives lost annually, according to WHO and Health Ministry data.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 0.35
+absolute_risk_new: null
+absolute_number_base: 19000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: world population
+reference_class_description_new: null
+source_base: WHO and Health Ministry data
+source_new: null"
+The study also says that there is evidence to suggest that the Pfizer vaccine leads to an 83% reduction in deaths from COVID-19.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The study also says that there is evidence to suggest that the Pfizer vaccine leads to an 83% reduction in deaths from COVID-19.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,17
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people who received Pfizer vaccine
+reference_class_description_new: people who received Pfizer vaccine
+source_base: study
+source_new: study"
+"After approximately 80 days, the rate of tissue loss among hard corals when treated this way was 17.6%. Over that same period, treatment with a paste of the antibiotic amoxicillin resulted in a tissue loss rate of around 1.7%. That makes the antibiotic, which is commonly used to treat SCTLD, significantly more efficient than chlorine.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+After approximately 80 days, the rate of tissue loss among hard corals when treated this way was 17.6%. Over that same period, treatment with a paste of the antibiotic amoxicillin resulted in a tissue loss rate of around 1.7%. That makes the antibiotic, which is commonly used to treat SCTLD, significantly more efficient than chlorine.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 17,60%
+absolute_risk_new: 1,70%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: significantly more efficient
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: hard corals treated with chlorine
+reference_class_description_new: hard corals treated with amoxicillin
+source_base: null
+source_new: null"
+The National Childhood Measurement Programme shows 9.6% of children in England are obese when they begin primary school and 22.1% of 10 and 11-year-olds are obese.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The National Childhood Measurement Programme shows 9.6% of children in England are obese when they begin primary school and 22.1% of 10 and 11-year-olds are obese.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 9,60%
+absolute_risk_new: 22,10%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children in England who are obese when they begin primary school
+reference_class_description_new: 10 and 11-year-olds in England who are obese
+source_base: National Childhood Measurement Programme
+source_new: National Childhood Measurement Programme"
+"The age group that accounts for the most fireworks-related injuries are those between 25 and 49 years old, accounting for 41% of emergency department visits.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The age group that accounts for the most fireworks-related injuries are those between 25 and 49 years old, accounting for 41% of emergency department visits.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 41%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: emergency department visits of fireworks-related injuries
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Sitting also affects the body's capacity to break down fat. When you are idle, the production of lipoprotein lipase, the enzyme responsible for fat breakdown, decreases by approximately 90%, leading fat to be retained rather than consumed.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Sitting also affects the body's capacity to break down fat. When you are idle, the production of lipoprotein lipase, the enzyme responsible for fat breakdown, decreases by approximately 90%, leading fat to be retained rather than consumed.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Multimorbidity, which occurs when individuals have at least two long-term health conditions, affects over one-third of adults worldwide and is projected to increase by 84% by 2050. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Multimorbidity, which occurs when individuals have at least two long-term health conditions, affects over one-third of adults worldwide and is projected to increase by 84% by 2050.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/3
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1,84
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: adults worldwide
+reference_class_description_new: adults worldwide in 2050
+source_base: null
+source_new: null"
+"You may need less exercise than you think: Studies suggest that even just 30 minutes of moderate physical activity a day -- about 3% of your waking hours -- is enough to reduce the risk of heart attack , the magazine LeBrasseur said.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+You may need less exercise than you think: Studies suggest that even just 30 minutes of moderate physical activity a day -- about 3% of your waking hours -- is enough to reduce the risk of heart attack , the magazine LeBrasseur said.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: moderate physical activity a day
+source_base: null
+source_new: null"
+The Rochester Epidemiology Project between 1991 and 2015 helped researchers compare Parkinson's patients with a control group.The greatest risk was seen in people living one to three miles from a golf course and the expansive lawns that come with it.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The Rochester Epidemiology Project between 1991 and 2015 helped researchers compare Parkinson's patients with a control group.The greatest risk was seen in people living one to three miles from a golf course and the expansive lawns that come with it.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: greatest risk
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people living one to three miles from a golf course
+reference_class_description_new: null
+source_base: Rochester Epidemiology Project
+source_new: null"
+" For instance, one large study of nearly 2,000 people found that anorexia was rare among families without eating disorders, but female relatives of people with an eating disorder were more than 11 times as likely to develop anorexia themselves.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+For instance, one large study of nearly 2,000 people found that anorexia was rare among families without eating disorders, but female relatives of people with an eating disorder were more than 11 times as likely to develop anorexia themselves.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 11
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: more than 11 times as likely
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: female relatives of people without eating disorders
+reference_class_description_new: female relatives of people with eating disorders
+source_base: null
+source_new: null"
+A recent Norwegian study reveals that walking for 100 minutes weekly can significantly reduce chronic lower back pain by 23%.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+A recent Norwegian study reveals that walking for 100 minutes weekly can significantly reduce chronic lower back pain by 23%.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,77
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: significantly reduce
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people who do not walk for 100 minutes weekly
+reference_class_description_new: people who walk for 100 minutes weekly
+source_base: A recent Norwegian study
+source_new: A recent Norwegian study
+### Input:
+A recent Norwegian study reveals that walking for 100 minutes weekly can significantly reduce chronic lower back pain by 23%.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base:"
+"Currently, dementia affects an estimated 6.9 million Americans, or about 2% of the population. That number is expected to double by 2060 as Millennials reach and surpass age 70 -- when cognitive decline on average first appears -- with Gen Z'ers (born from the mid-1990s to roughly 2010) hot on their aging heels.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Currently, dementia affects an estimated 6.9 million Americans, or about 2% of the population. That number is expected to double by 2060 as Millennials reach and surpass age 70 -- when cognitive decline on average first appears -- with Gen Z'ers (born from the mid-1990s to roughly 2010) hot on their aging heels.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2%
+absolute_risk_new: null
+absolute_number_base: 6900000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: Americans
+reference_class_description_new: Americans in 2060
+source_base: null
+source_new: null"
+"In two clinical trials called PURPOSE 1 and PURPOSE 2, lenacapavir worked extremely well to prevent HIV infections in both men and women. More than 99.9% of participants taking the twice-a-year shot remained HIV negative during the studies.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In two clinical trials called PURPOSE 1 and PURPOSE 2, lenacapavir worked extremely well to prevent HIV infections in both men and women. More than 99.9% of participants taking the twice-a-year shot remained HIV negative during the studies.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 99,90%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: more than 99.9%
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: participants taking the twice-a-year shot
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Their nationally representative analysis found that ""among those who had never had a major cardiovascular event, just under half -- 47 percent -- were eligible for cholesterol-lowering drugs under U.S. guidelines but only 23 percent were taking them,"" the news release reported.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Their nationally representative analysis found that ""among those who had never had a major cardiovascular event, just under half -- 47 percent -- were eligible for cholesterol-lowering drugs under U.S. guidelines but only 23 percent were taking them,"" the news release reported.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 47%
+absolute_risk_new: 23%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people who had never had a major cardiovascular event
+reference_class_description_new: people who had never had a major cardiovascular event
+source_base: null
+source_new: null"
+"Lyme disease cases in Michigan have increased by 168% over the last five years, the Michigan Department of Health and Human Services said. The state recorded 1,215 cases in 2024, compared to 452 cases in 2020.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Lyme disease cases in Michigan have increased by 168% over the last five years, the Michigan Department of Health and Human Services said. The state recorded 1,215 cases in 2024, compared to 452 cases in 2020.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 452
+absolute_number_new: 1215.0
+absolute_risk_difference: null
+relative_risk: 2.68
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: Michigan residents
+reference_class_description_new: Michigan residents
+source_base: Michigan Department of Health and Human Services
+source_new: Michigan Department of Health and Human Services"
+"Adults who received the recombinant shingles vaccine Shingrix or the respiratory syncytial virus (RSV) vaccine Arexvy -- both of which contain the AS01 adjuvant -- had a lower risk for dementia in the 18 months after vaccination than peers who received the flu vaccine, which does not contain the AS01 adjuvant, investigators found.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Adults who received the recombinant shingles vaccine Shingrix or the respiratory syncytial virus (RSV) vaccine Arexvy -- both of which contain the AS01 adjuvant -- had a lower risk for dementia in the 18 months after vaccination than peers who received the flu vaccine, which does not contain the AS01 adjuvant, investigators found.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: lower risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: adults who received the recombinant shingles vaccine Shingrix or the respiratory syncytial virus (RSV) vaccine Arexvy
+source_base: null
+source_new: null"
+The new diabetes treatment reduced the incidence of severe cardiovascular events by 35% in patients at high risk. These results mark a major breakthrough and support broader use of the therapy in routine care.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The new diabetes treatment reduced the incidence of severe cardiovascular events by 35% in patients at high risk. These results mark a major breakthrough and support broader use of the therapy in routine care.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,65
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: patients at high risk
+reference_class_description_new: patients at high risk
+source_base: null
+source_new: null"
+"According to a report by the World Health Organization, the absolute 10-year risk of stroke in untreated hypertensive adults over 60 is approximately 12%. In a cohort receiving the new antihypertensive drug, 48 participants experienced a stroke during the same period, representing a relative risk of 0.4 compared to the untreated group.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to a report by the World Health Organization, the absolute 10-year risk of stroke in untreated hypertensive adults over 60 is approximately 12%. In a cohort receiving the new antihypertensive drug, 48 participants experienced a stroke during the same period, representing a relative risk of 0.4 compared to the untreated group.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 48.0
+absolute_risk_difference: null
+relative_risk: 0.4
+absolute_number_difference: null
+verbal_descriptor_base: approximately 12%
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: untreated hypertensive adults over 60
+reference_class_description_new: null
+source_base: World Health Organization
+source_new: World Health Organization"
+"In the study, 166 people who had received a third dose of Pfizer (following Pfizer or AstraZeneca initial doses in June 2021) were randomised to receive either full dose Pfizer or half dose Moderna as a fourth dose.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In the study, 166 people who had received a third dose of Pfizer (following Pfizer or AstraZeneca initial doses in June 2021) were randomised to receive either full dose Pfizer or half dose Moderna as a fourth dose.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In the period when the research was done, the chance of having a new diagnosis of a neuropsychiatric condition was higher for people who had been hospitalised either for Covid-19 or for some other serious respiratory disease, than for the general public","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In the period when the research was done, the chance of having a new diagnosis of a neuropsychiatric condition was higher for people who had been hospitalised either for Covid-19 or for some other serious respiratory disease, than for the general public
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: chance was higher
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people who had been hospitalised either for Covid-19 or for some other serious respiratory disease
+source_base: null
+source_new: null"
+It adds to a large body of evidence showing that COVID-19 is associated with an increased risk of neuropsychiatric diagnoses.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+It adds to a large body of evidence showing that COVID-19 is associated with an increased risk of neuropsychiatric diagnoses.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: increased risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people with COVID-19
+source_base: null
+source_new: null"
+A study today from the Netherlands exploring binding and neutralising antibody titres following use of various COVID vaccines in the healthcare workforce at the same institution demonstrates once more that antibody titres following the viral vector vaccines tend to be lower than following mRNA vaccines,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+A study today from the Netherlands exploring binding and neutralising antibody titres following use of various COVID vaccines in the healthcare workforce at the same institution demonstrates once more that antibody titres following the viral vector vaccines tend to be lower than following mRNA vaccines
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+The second observation suggests that the antiviral effect of viral vector vaccines vs virus variants may also be lower than following vaccination with mRNA vaccines has also been suggested by other groups,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The second observation suggests that the antiviral effect of viral vector vaccines vs virus variants may also be lower than following vaccination with mRNA vaccines has also been suggested by other groups
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: may also be lower
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: antiviral effect of viral vector vaccines
+source_base: null
+source_new: null"
+In another study (Reissland et al 2018) we found that fetuses in the third trimester reacted differentially to sound and light stimulation depending on maternal mental health status with a 20% increase in fetal eyeblink for each unit increase in anxiety score indicating that fetuses are affected differentially by maternal anxiety ,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In another study (Reissland et al 2018) we found that fetuses in the third trimester reacted differentially to sound and light stimulation depending on maternal mental health status with a 20% increase in fetal eyeblink for each unit increase in anxiety score indicating that fetuses are affected differentially by maternal anxiety
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1,2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: fetuses of mothers with higher levels of anxiety
+source_base: Reissland et al 2018
+source_new: Reissland et al 2018"
+"In a randomized controlled trial of 4,800 patients with type 2 diabetes, 122 participants out of 2400 in the placebo group experienced a major cardiovascular event within 24 months. In contrast, only 67 participants out of 2400 receiving the new GLP-1 receptor agonist had such an event over the same period.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In a randomized controlled trial of 4,800 patients with type 2 diabetes, 122 participants out of 2400 in the placebo group experienced a major cardiovascular event within 24 months. In contrast, only 67 participants out of 2400 receiving the new GLP-1 receptor agonist had such an event over the same period.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/24
+absolute_risk_new: 1/24
+absolute_number_base: 122
+absolute_number_new: 67.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: 2400
+reference_class_size_new: 2400
+reference_class_description_base: receiving placebo
+reference_class_description_new: receiving the new GLP-1 receptor agonist
+source_base: null
+source_new: null"
+"Prospective studies in China, Denmark, and Norway have all demonstrated the percentage of people who experience any residual symptoms (irrespective of how minor) to be significantly higher than our figures","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Prospective studies in China, Denmark, and Norway have all demonstrated the percentage of people who experience any residual symptoms (irrespective of how minor) to be significantly higher than our figures
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: significantly higher
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in China, Denmark, and Norway
+reference_class_description_new: null
+source_base: null
+source_new: null"
+The ONS has already demonstrated that the likelihood of developing long COVID in a fully vaccinated population are reduced by about 40% compared to an unvaccinated population,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The ONS has already demonstrated that the likelihood of developing long COVID in a fully vaccinated population are reduced by about 40% compared to an unvaccinated population
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,6
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: reduced by about 40%
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: unvaccinated population
+reference_class_description_new: fully vaccinated population
+source_base: null
+source_new: The ONS has already demonstrated that the likelihood of developing long COVID in a fully vaccinated population are reduced by about 40% compared to an unvaccinated population
+### Reference:
+null"
+"As previously reported, a single intramuscular (IM) injection of 600mg Evusheld reduced the need for hospitalisation/death due to COVID by at least 50% ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+As previously reported, a single intramuscular (IM) injection of 600mg Evusheld reduced the need for hospitalisation/death due to COVID by at least 50%
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,5
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: reduced by at least 50%
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people not receiving Evusheld
+reference_class_description_new: people receiving Evusheld
+source_base: null
+source_new: null"
+"We also are given no information about the age at which diagnoses were made. The reports of disorders of motor function are more plausible at this young age: These affected 99/7550 (1.3%) of non-Covid cases, and 6/222 (2.7%) of Covid cases.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+We also are given no information about the age at which diagnoses were made. The reports of disorders of motor function are more plausible at this young age: These affected 99/7550 (1.3%) of non-Covid cases, and 6/222 (2.7%) of Covid cases.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1,30%
+absolute_risk_new: 2,70%
+absolute_number_base: 99
+absolute_number_new: 6.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: 7550
+reference_class_size_new: 222
+reference_class_description_base: non-Covid cases
+reference_class_description_new: Covid cases
+source_base: null
+source_new: null"
+It is worth noting that 97% of infants with no Covid exposure vs 94% of those with Covid exposure received no neurodevelopmental diagnosis. ,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+It is worth noting that 97% of infants with no Covid exposure vs 94% of those with Covid exposure received no neurodevelopmental diagnosis.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 97%
+absolute_risk_new: 94%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: infants with Covid exposure
+reference_class_description_new: infants with no Covid exposure
+source_base: null
+source_new: null"
+"According to the CDC, people who received the seasonal flu vaccine were around 60% less likely to be hospitalized for influenza-related complications compared to unvaccinated individuals.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to the CDC, people who received the seasonal flu vaccine were around 60% less likely to be hospitalized for influenza-related complications compared to unvaccinated individuals.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,4
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: around 60% less likely
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: unvaccinated individuals
+reference_class_description_new: people who received the seasonal flu vaccine
+source_base: null
+source_new: According to the CDC, people who received the seasonal flu vaccine were around 60% less likely to be hospitalized for influenza-related complications compared to unvaccinated individuals."
+"In 2022, hospitals across Germany documented a total of 12,843 cases in which patients experienced severe allergic reactions after taking prescribed medication.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In 2022, hospitals across Germany documented a total of 12,843 cases in which patients experienced severe allergic reactions after taking prescribed medication.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 12843
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: patients in Germany in 2022 who experienced severe allergic reactions after taking prescribed medication
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In a group of 1,000 people like those in the study, who were first infected during the Delta period, and had had their most recent vaccination more than 3 months ago, about 125 would have reported symptoms going on for four or more weeks.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In a group of 1,000 people like those in the study, who were first infected during the Delta period, and had had their most recent vaccination more than 3 months ago, about 125 would have reported symptoms going on for four or more weeks.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 125/1000
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: about 125 out of 1000
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: 1000
+reference_class_size_new: null
+reference_class_description_base: people like those in the study who were first infected during the Delta period and had had their most recent vaccination more than 3 months ago
+reference_class_description_new: null
+source_base: null
+source_new: null"
+Children have a lower risk of severe acute COVID-19 than adults.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Children have a lower risk of severe acute COVID-19 than adults.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: lower risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: children
+source_base: null
+source_new: null"
+"Estimates show that the rate of Long Covid disease may be as high as 43% globally, resulting in an estimated 3.1% of the UK population experiencing persistent symptoms following SARS-CoV-2 infection, as reported by the ONS","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Estimates show that the rate of Long Covid disease may be as high as 43% globally, resulting in an estimated 3.1% of the UK population experiencing persistent symptoms following SARS-CoV-2 infection, as reported by the ONS
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 3,10%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: UK population
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In February, Prof Selina Kikkenborg Berg and colleagues reported on the rate of persistent symptoms in children aged 15-18 in Denmark, finding that children with confirmed SARS-CoV-2 infections were nearly 5% more likely to report at least one persistent symptom lasting 2 months or more","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In February, Prof Selina Kikkenborg Berg and colleagues reported on the rate of persistent symptoms in children aged 15-18 in Denmark, finding that children with confirmed SARS-CoV-2 infections were nearly 5% more likely to report at least one persistent symptom lasting 2 months or more
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1,05
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: nearly 5% more likely
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children without confirmed SARS-CoV-2 infections
+reference_class_description_new: children with confirmed SARS-CoV-2 infections
+source_base: null
+source_new: null"
+"These findings add to different measures used in the recent ONS release, which found in children who met the UK CLoCK study definition for Long Covid, 28% had a probable mental disorder (compared to 12% who didn’t experience Long Covid).","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+These findings add to different measures used in the recent ONS release, which found in children who met the UK CLoCK study definition for Long Covid, 28% had a probable mental disorder (compared to 12% who didn’t experience Long Covid).
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: 28%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children who didn’t experience Long Covid
+reference_class_description_new: children who met the UK CLoCK study definition for Long Covid
+source_base: null
+source_new: null"
+"In this database, CP was diagnosed in 2 in 1000 births.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In this database, CP was diagnosed in 2 in 1000 births.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2/1000
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: births
+reference_class_description_new: null
+source_base: this database
+source_new: null"
+"By 2030, research from VUB and Save the Children suggests that 84% of children born in 2020 — around 101 million kids — will experience lifelong exposure to extreme heat.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+By 2030, research from VUB and Save the Children suggests that 84% of children born in 2020 — around 101 million kids — will experience lifelong exposure to extreme heat.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 84%
+absolute_risk_new: null
+absolute_number_base: 101000000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children born in 2020
+reference_class_description_new: null
+source_base: research from VUB and Save the Children
+source_new: null"
+"90% of popular fruits and vegetables tested by federal agencies showed potentially harmful pesticide residues, according to the Environmental Working Group's 2025 Shopper's Guide to Pesticides in Produce, CNN reported.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+90% of popular fruits and vegetables tested by federal agencies showed potentially harmful pesticide residues, according to the Environmental Working Group's 2025 Shopper's Guide to Pesticides in Produce, CNN reported.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 0.9
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: potentially harmful
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: popular fruits and vegetables tested by federal agencies
+reference_class_description_new: null
+source_base: Environmental Working Group's 2025 Shopper's Guide to Pesticides in Produce
+source_new: null"
+"The health impacts of extreme heat are vast. During the 2022 heatwave, which lasted about 2 weeks, around 5,000 people over the age of 70 died prematurely.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The health impacts of extreme heat are vast. During the 2022 heatwave, which lasted about 2 weeks, around 5,000 people over the age of 70 died prematurely.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 5000
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people over the age of 70
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"According to the German Weather Service (DWD), a severe weather warning is in place for 41 districts. The probability of flooding is 60%","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to the German Weather Service (DWD), a severe weather warning is in place for 41 districts. The probability of flooding is 60%
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: German Weather Service (DWD)
+source_new: German Weather Service (DWD)"
+"According to EFSA, 12% of the fruit samples tested exceeded EU limits. There is no acute health risk, but long-term risks are unclear.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to EFSA, 12% of the fruit samples tested exceeded EU limits. There is no acute health risk, but long-term risks are unclear.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 1.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: fruit samples tested
+reference_class_description_new: null
+source_base: EFSA
+source_new: null
+### Input:
+According to EFSA, 12% of the fruit samples tested exceeded EU limits. There is no acute health risk, but long-term risks are unclear.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 1.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute"
+"In coastal Bangladesh, the probability of being displaced by flooding within a year is estimated at 2.3% among residents in low-lying areas.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In coastal Bangladesh, the probability of being displaced by flooding within a year is estimated at 2.3% among residents in low-lying areas.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2,30%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: residents in low-lying areas
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In 2024, 112 heavy rain events were reported – 36 more than in 2023.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In 2024, 112 heavy rain events were reported – 36 more than in 2023.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 112
+absolute_number_new: 148.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: heavy rain events in 2023
+reference_class_description_new: heavy rain events in 2024
+source_base: null
+source_new: null"
+"In 2024, 1,450 hectares of forest burned, while in 2022 only 790 hectares burned – an increase of 660 hectares.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In 2024, 1,450 hectares of forest burned, while in 2022 only 790 hectares burned – an increase of 660 hectares.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 790
+absolute_number_new: 1450.0
+absolute_risk_difference: 660
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: forest fires in 2022
+reference_class_description_new: forest fires in 2024
+source_base: null
+source_new: null"
+The probability of heavy rainfall like the flood was 4.5  times higher due to climate change than in a world without human influence.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The probability of heavy rainfall like the flood was 4.5  times higher due to climate change than in a world without human influence.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 4,5
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: world without human influence
+reference_class_description_new: world with current level of climate change
+source_base: null
+source_new: null"
+"According to a report by the European Environment Agency, approximately 1.5% of urban populations in southern Europe are currently affected by heatwaves annually. This number is expected to rise to 2.5% by 2030.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+According to a report by the European Environment Agency, approximately 1.5% of urban populations in southern Europe are currently affected by heatwaves annually. This number is expected to rise to 2.5% by 2030.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1,50%
+absolute_risk_new: 2,50%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: urban population in southern Europe
+reference_class_description_new: urban population in southern Europe
+source_base: European Environment Agency
+source_new: European Environment Agency
+### Input:
+According to a report by the European Environment Agency, approximately 1.5% of urban populations in southern Europe are currently affected by heatwaves annually. This number is expected to rise to 2.5% by 2030.
+
+### Output:
+risk_communication: 1
+unrelated_risks"
+"In Frankfurt, a total of 34 hot days above 35°C were measured in 2024 – twice as many as the average for the years 1991-2020.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In Frankfurt, a total of 34 hot days above 35°C were measured in 2024 – twice as many as the average for the years 1991-2020.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 34.0
+absolute_risk_difference: null
+relative_risk: 2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: average number of hot days (35°C+) in Frankfurt, Germany (1991–2020)
+reference_class_description_new: number of hot days (35°C+) in Frankfurt, Germany in 2024
+source_base: null
+source_new: null"
+"During the hot summer of 2024, there were 318 heat-related disruptions to rail traffic.
+This number more than doubled compared to 2019 (143 cases).","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+During the hot summer of 2024, there were 318 heat-related disruptions to rail traffic.
+This number more than doubled compared to 2019 (143 cases).
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 143
+absolute_number_new: 318.0
+absolute_risk_difference: null
+relative_risk: 2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: more than doubled
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: rail traffic disruptions in 2019
+reference_class_description_new: rail traffic disruptions in 2024
+source_base: null
+source_new: null"
+"In Belgium, 35 cases of storm surge were recorded in 2025—five more cases than in the previous year. This represents an increase of 16.7%.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In Belgium, 35 cases of storm surge were recorded in 2025—five more cases than in the previous year. This represents an increase of 16.7%.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 30
+absolute_number_new: 35.0
+absolute_risk_difference: null
+relative_risk: 1,167
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: storm surge events in Belgium in 2024
+reference_class_description_new: storm surge events in Belgium in 2025
+source_base: null
+source_new: null"
+"In the Netherlands, 12% of the dike kilometers are currently considered critical.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In the Netherlands, 12% of the dike kilometers are currently considered critical.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: dikes in Netherlands
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In Spain, 87 of the rivers were below critical low water levels.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In Spain, 87 of the rivers were below critical low water levels.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In 2025, 91 major wildfires were recorded, compared to 28 wildfires in 2015.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In 2025, 91 major wildfires were recorded, compared to 28 wildfires in 2015.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 28
+absolute_number_new: 91.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: wildfires in 2015
+reference_class_description_new: wildfires in 2025
+source_base: null
+source_new: null"
+"In flood-affected regions, the risk of death among children under 5 years of age was 2.1 times higher than in unaffected comparison regions","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In flood-affected regions, the risk of death among children under 5 years of age was 2.1 times higher than in unaffected comparison regions
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 2.1
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children under 5 years of affected regions
+reference_class_description_new: children under 5 years of unaffected comparison regions
+source_base: null
+source_new: null"
+"In the Cologne region, the absolute risk that a household in a designated flood zone is affected at least once a year is 14%.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In the Cologne region, the absolute risk that a household in a designated flood zone is affected at least once a year is 14%.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 14%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: households in designated flood zones in Cologne region
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"41% of irrigated arable land in Southern Europe is considered to be “at risk of flood stress” – in 2010, the figure was only 27%.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+41% of irrigated arable land in Southern Europe is considered to be “at risk of flood stress” – in 2010, the figure was only 27%.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 27%
+absolute_risk_new: 41%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: only
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: irrigated arable land in Southern Europe
+reference_class_description_new: irrigated arable land in Southern Europe
+source_base: null
+source_new: null"
+"In 2023, 1.9% of the total forest area was lost, compared to 2.5% in 2022. The decline thus amounts to 0.6 percentage points.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+In 2023, 1.9% of the total forest area was lost, compared to 2.5% in 2022. The decline thus amounts to 0.6 percentage points.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1,90%
+absolute_risk_new: 2,50%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: forest area in 2023
+reference_class_description_new: forest area in 2022
+source_base: null
+source_new: null"
+Sea levels are projected to rise by up to one meter by the end of the century if emissions continue at current rates. This poses a significant risk to coastal communities worldwide.,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Sea levels are projected to rise by up to one meter by the end of the century if emissions continue at current rates. This poses a significant risk to coastal communities worldwide.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 1
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: significant risk
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: coastal communities if emissions continue at current rates
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"The conference on climate innovation will take place in Geneva this September, featuring experts from over 40 countries.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The conference on climate innovation will take place in Geneva this September, featuring experts from over 40 countries.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Some weeks ago, the soil was significantly cleaner than it is now. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Some weeks ago, the soil was significantly cleaner than it is now.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"It is estimated that 80–90 percent of the methane from permafrost thaw may not reach the atmosphere immediately, depending on microbial activity and soil saturation — which complicates long-term projections.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+It is estimated that 80–90 percent of the methane from permafrost thaw may not reach the atmosphere immediately, depending on microbial activity and soil saturation — which complicates long-term projections.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 0.85
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: methane from permafrost thaw
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"If global warming continues, we might see more heatwaves, declining fish stocks, rising mental health issues in adolescents, and disruptions to international trade routes due to melting Arctic ice.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+If global warming continues, we might see more heatwaves, declining fish stocks, rising mental health issues in adolescents, and disruptions to international trade routes due to melting Arctic ice.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 1.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Experts warn that increasing wildfire frequency (up 150% in some regions), coastal property devaluation projected at $108 billion by 2100, a 12% rise in asthma cases among children, and the spread of invasive insect species across 30 new U.S. states are all potential outcomes of a warming planet — though regional variation remains high.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Experts warn that increasing wildfire frequency (up 150% in some regions), coastal property devaluation projected at $108 billion by 2100, a 12% rise in asthma cases among children, and the spread of invasive insect species across 30 new U.S. states are all potential outcomes of a warming planet — though regional variation remains high.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 1.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"The likelihood of extreme heatwaves in Southern Europe is now considered extremely high during summer months, especially compared to the early 2000s where it was considered as moderately low.","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+The likelihood of extreme heatwaves in Southern Europe is now considered extremely high during summer months, especially compared to the early 2000s where it was considered as moderately low.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: moderately low
+verbal_descriptor_new: extremely high
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: Southern Europe during summer months in the early 2000s
+reference_class_description_new: Southern Europe during summer months
+source_base: null
+source_new: null"
+"Geo-engineering will reduce the number of extreme storms by 20%. In 2024, 20678 of these events happened. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Geo-engineering will reduce the number of extreme storms by 20%. In 2024, 20678 of these events happened.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 20678
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0,8
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: number of extreme storms
+reference_class_description_new: number of extreme storms
+source_base: null
+source_new: null"
+"A lot of experts say that climate change is a hoax, according to the American President. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+A lot of experts say that climate change is a hoax, according to the American President.
+
+### Output:
+risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+Ecosystems are nearly six times less endangered since the EU voted for the anti-pesticide law in May 2023. ,"### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Ecosystems are nearly six times less endangered since the EU voted for the anti-pesticide law in May 2023.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1/6
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: nearly six times less
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: ecosystems before the EU voted for the anti-pesticide law in May 2023
+reference_class_description_new: ecosystems after the EU voted for the anti-pesticide law in May 2023
+source_base: null
+source_new: null"
+"Some regions in Mexico have 5,2% of rain days per year, while Europe has 11% of rain days per year. This is almost 2 times as much. ","### Instruction:
+From the input text, extract the following fields ONLY.
+Format your response as newline-separated entries:
+
+category: value
+
+Do NOT include any additional text, headings, or explanations.
+
+Fields to extract:
+- risk_communication
+- unrelated_risks
+- absolute_risk_base
+- absolute_risk_new
+- absolute_number_base
+- absolute_number_new
+- absolute_risk_difference
+- relative_risk
+- absolute_number_difference
+- verbal_descriptor_base
+- verbal_descriptor_new
+- verbal_descriptor_change
+- reference_class_size_base
+- reference_class_size_new
+- reference_class_description_base
+- reference_class_description_new
+- source_base
+- source_new
+### Input:
+Some regions in Mexico have 5,2% of rain days per year, while Europe has 11% of rain days per year. This is almost 2 times as much.
+
+### Output:
+risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 5,2%
+absolute_risk_new: 11%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: almost 2 times as much
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: regions in Mexico
+reference_class_description_new: regions in Europe
+source_base: null
+source_new: null"

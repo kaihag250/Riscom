@@ -1,0 +1,1784 @@
+input,output
+"If you use the Scalable app, your chances of becoming rich are significantly higher.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: chances are significantly higher 
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people who use the Scalable app 
+source_base: null
+source_new: null"
+Exchange rate risk refers to the risk that a company’s operations and profitability may be affected by changes in the exchange rates between currencies.,"risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+Infamous economists continue to see a 1-in-3 chance of a U.S. recession in the next 12 months.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/3
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: U.S. economic outlook in the next 12 months
+reference_class_description_new: null
+source_base: Economists
+source_new: null"
+"The average risk of default for US public companies hit 9.2% at the end of 2024, the highest since the global financial crisis, according to a Moody’s Asset Management report released on Tuesday.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 9,20%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: US public companies at the end of 2024
+reference_class_description_new: null
+source_base: Moody’s Asset Management report released on Tuesday
+source_new: null"
+"The probability of a severe credit crunch in the euro area banking sector is now estimated at 15%, down from 22% six months ago, reflecting improved liquidity buffers and lower market stress.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 15,00%
+absolute_risk_new: 0.22
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: euro area banking sector risk of credit crunch six months ago
+reference_class_description_new: euro area banking sector risk of credit crunch now
+source_base: null
+source_new: null"
+"In a baseline scenario, central bank economists assign a 1-in-10 chance that core inflation will exceed 3.5% in 2026, citing wage dynamics and delayed pass-through effects.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/10
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: core inflation in 2026
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Bankers from J.P. Morgan think the signal that excludes the yield curve is most informative: Rather than a 30% chance of a recession in 2025, it projects a 12% chance.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 30%
+absolute_risk_new: 12%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: probability of recession in 2025 based on yield curve-inclusive model
+reference_class_description_new: probability of recession in 2025 based on signal that excludes the yield curve
+source_base: J.P. Morgan bankers
+source_new: J.P. Morgan bankers"
+"Goldman Sachs reduced its U.S. recession forecast to 35% from 45%, sending a positive message to the stock market.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 45%
+absolute_risk_new: 35%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: U.S. recession risk in Goldman Sachs forecast before reduction
+reference_class_description_new: U.S. recession risk in Goldman Sachs forecast after reduction
+source_base: Goldman Sachs
+source_new: Goldman Sachs"
+"On Monday, the U.S. and China agreed to reduce tariffs on each other's imports for 90 days., with the U.S. lowering its tariffs on Chinese goods to 30% from 145% and China cutting duties on U.S. imports to 10% from 125%.","risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Food inflation is expected to increase to 2.9% in the second quarter of 2025, driven by an upward base effect and a sharp increase in unprocessed food prices, as well as by a large increase in food commodity prices.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: 2,90%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: food inflation in the second quarter of 2025
+source_base: null
+source_new: null"
+The companies revenue increased by 10% last year,"risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"According to 2023 findings from the Global Retirement Index, 7.2% of Indian retirees were underfunded, with projections suggesting the number could reach 16 million by 2036.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 7,20%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 16000000.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: could reach
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: underfunded Indian retirees in 2023
+reference_class_description_new: underfunded Indian retirees in 2036 projection
+source_base: Global Returement Index
+source_new: Global Returement Index"
+But recent data suggested that many children today are not receiving the vision screenings needed to flag potential issues: Those between 6 and 17 years who had their vision tested in the previous 2 years dropped from 84.6% in 2016 to 79.6% in 2023.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 84,6%
+absolute_risk_new: 79,6%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children between 6 and 17 in 2016
+reference_class_description_new: children between 6 and 17 in 2023
+source_base: recent data
+source_new: recent data"
+"Both men and women athletes suffer from concussions, but they occur at a substantially higher rate for women in many sports.Consider, for instance, ice hockey. The concussion rate for adult women's ice hockey is 39% higher than it is for adult men's ice hockey, according to one systematic review published in the scientific journal Sports Medicine.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.39
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: substantially higher rate
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: adult men who play icehockey
+reference_class_description_new: adult women who play icehockey
+source_base: one systematic review published in the scientific journal Sports Medicine.
+source_new: one systematic review published in the scientific journal Sports Medicine."
+"Lyme disease cases in Michigan have increased by 168% over the last five years, the Michigan Department of Health and Human Services said. The state recorded 1,215 cases in 2024, compared to 452 cases in 2020.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 452.0
+absolute_number_new: 1215.0
+absolute_risk_difference: null
+relative_risk: 1.68
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in michigan in 2020
+reference_class_description_new: people in michigan in 2024
+source_base:  the Michigan Department of Health and Human Services
+source_new:  the Michigan Department of Health and Human Services"
+"More than 80 autoimmune diseases are known, some of which are caused by exposure to environmental toxins and have no discovered cure. At least 15 million people in the United States, or about 5% of the population, have an autoimmune disease, the agency reports.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 5%
+absolute_risk_new: null
+absolute_number_base: 15000000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in the United states
+reference_class_description_new: null
+source_base: the agency
+source_new: null"
+"Not getting enough sunlight can also pose significant risks. Research suggests that a lack of sun exposure may be linked to 340,000 deaths in the United States each year. ","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 340000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: significant risk
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in the United states
+reference_class_description_new: null
+source_base: Research
+source_new: null"
+"They tested nearly 200 unique products across several brands. Around 17% -- roughly one in six -- were found to have incorrect active ingredient levels, including products used in major hospitals.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 17%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: roughly one in six
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: 200.0
+reference_class_size_new: null
+reference_class_description_base: unique products across several brands
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"While globally suicide ranks third for youth mortality, in India, it is surpassed only by road accidents. The share of suicides is slightly higher among young women (18.2%) than men (16.3%)","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 16,3%
+absolute_risk_new: 18,2%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: slightly higher
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: young men in India
+reference_class_description_new: young women in India
+source_base: null
+source_new: null"
+"By the mid-20th century, tuberculosis in the United States and Europe had already declined thanks to improved nutrition and living conditions. Once treatments arrived in the 1950s, deaths tumbled: by the late 1980s, they had fallen by over 90% in the United States. ","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: -0.9
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: People in the U.S in the 1950s
+reference_class_description_new: People in the U.S in the late 1980s
+source_base: null
+source_new: null"
+"Glaucoma affects about 700,000 people in the UK. A report by the Royal College of Ophthalmologists suggests cases could rise by 22% by 2035.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 700000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.22
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in th UK
+reference_class_description_new: people in the UK in 2035
+source_base: A report by the Royal College of Ophthalmologists
+source_new: A report by the Royal College of Ophthalmologists"
+The prevalence of dry eye varies significantly across demographics. Women are almost twice as likely to develop the condition compared to men (8.8% vs. 4.5%),"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 4,5%
+absolute_risk_new: 8,8%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: almost twice as likely
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: men
+reference_class_description_new: women
+source_base: null
+source_new: null"
+"The number of follicles progressively declines with age. By age 30, most women have only about 12% of the egg cells they were born with. After a certain point they lose follicles at a faster rate, though it's not known why. By age 40, a mere 3% may remain.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: 3%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: only
+verbal_descriptor_new: mere
+verbal_descriptor_change: lose at a faster rate
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: women age 30
+reference_class_description_new: women age 40
+source_base: null
+source_new: null"
+"In the summer of 2022, Paris recorded 37 heat-related deaths, while in 2023 the number rose to 65.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 37.0
+absolute_number_new: 65.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: heat-related deaths in Paris in summer of 2022
+reference_class_description_new: heat-related deaths in Paris 2023
+source_base: null
+source_new: null"
+"According to a recent report by the World Health Organization, a resurgence of measles outbreaks in sub-Saharan Africa is considered likely within the next two years.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: likely
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: sub-Saharan African population
+reference_class_description_new: null
+source_base: recent report by the World Health Organization
+source_new: null"
+"Estimates now range from about 5 per 100,000 to 39 per 100,000 among hospitalized children, suggesting pulmonary embolism is more common than previously estimated.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 22/100000
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: more common
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: hospitalized children
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"According to CDC estimates, overdose deaths in the U.S. dropped from 105,000 in 2023 to 77,000 in 2024 — a 27% decline, marking an unprecedented improvement.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 105000.0
+absolute_number_new: 77000.0
+absolute_risk_difference: null
+relative_risk: 0.73
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in United States
+reference_class_description_new: people in United States
+source_base: CDC estimates
+source_new: CDC estimates"
+"In the U.S., 12.3% of chronic disease deaths in 2019 were linked to overweight and obesity — a sharp rise from 6.1% in 1990.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 6.1%
+absolute_risk_new: 12.3%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: a sharp rise
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in China
+reference_class_description_new: people in China
+source_base: null
+source_new: null"
+"A recent study found that 4.4% of individuals aged 12 and older in Bavaria — about 260,000 people — misuse opioids, nearly four times the national average of Germany.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: 4,40%
+absolute_number_base: null
+absolute_number_new: 260000.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: nearly four times the national average
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in Germany
+reference_class_description_new: people in Bavaria
+source_base: a recent study 
+source_new: a recent study"
+UK Biobank data shows normal-weight individuals who walk slowly have a 3.9x higher risk of dying from COVID-19 than brisk walkers of the same weight.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 3.9
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: individuals who are normal-weight fast walkers
+reference_class_description_new: individuals who are normal-weight slow walkers
+source_base: UK Biobank data
+source_new: UK Biobank data"
+"India bears the highest rabies toll in the world, accounting for 35% of global deaths estimated at 18,000 to 20,000 lives lost annually, according to WHO and Health Ministry data.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 35%
+absolute_risk_new: null
+absolute_number_base: 19000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: all people worldwide who die of rabies 
+reference_class_description_new: null
+source_base: null
+source_new: null"
+The study also says that there is evidence to suggest that the Pfizer vaccine leads to an 83% reduction in deaths from COVID-19.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.17
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people who are vaccinated with the Pfizer vaccine
+source_base: null
+source_new: the study"
+"After approximately 80 days, the rate of tissue loss among hard corals when treated this way was 17.6%. Over that same period, treatment with a paste of the antibiotic amoxicillin resulted in a tissue loss rate of around 1.7%. That makes the antibiotic, which is commonly used to treat SCTLD, significantly more efficient than chlorine.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 17,60%
+absolute_risk_new: 1,70%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: significantly more efficient 
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: hard corals treated with the chlorine-based method over 80 days
+reference_class_description_new: hard corals treated with a paste of antibiotic amoxicilin over 80 days
+source_base: null
+source_new: null"
+The National Childhood Measurement Programme shows 9.6% of children in England are obese when they begin primary school and 22.1% of 10 and 11-year-olds are obese.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 9,60%
+absolute_risk_new: 22,10%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children when they begin primary school in England 
+reference_class_description_new: 10 and 11-year-olds in England
+source_base: null
+source_new: null"
+"The age group that accounts for the most fireworks-related injuries are those between 25 and 49 years old, accounting for 41% of emergency department visits.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 41%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: adults aged 25 to 49
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Sitting also affects the body's capacity to break down fat. When you are idle, the production of lipoprotein lipase, the enzyme responsible for fat breakdown, decreases by approximately 90%, leading fat to be retained rather than consumed.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.1
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people who are idle or sitting for extended periods
+source_base: null
+source_new: null"
+"Multimorbidity, which occurs when individuals have at least two long-term health conditions, affects over one-third of adults worldwide and is projected to increase by 84% by 2050. ","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1/3
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1.84
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: adults worldwide affected by multimorbidity currently
+reference_class_description_new: adults worldwide projected to be affected by multimorbidity in 2050 
+source_base: null
+source_new: null"
+"You may need less exercise than you think: Studies suggest that even just 30 minutes of moderate physical activity a day -- about 3% of your waking hours -- is enough to reduce the risk of heart attack , the magazine LeBrasseur said.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: enough to move the needle
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people doing 30 minutes of moderate physical activity per day 
+source_base: LeBrasseur
+source_new: LeBrasseur"
+The Rochester Epidemiology Project between 1991 and 2015 helped researchers compare Parkinson's patients with a control group.The greatest risk was seen in people living one to three miles from a golf course and the expansive lawns that come with it.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: greatest risk
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in the control group
+reference_class_description_new: people living one to three miles from a golf course
+source_base: data from the Rochester Epidemiology Project between 1991 and 2015
+source_new: data from the Rochester Epidemiology Project between 1991 and 2016"
+" For instance, one large study of nearly 2,000 people found that anorexia was rare among families without eating disorders, but female relatives of people with an eating disorder were more than 11 times as likely to develop anorexia themselves.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: more than 11 times as likely 
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: female relatives of people with an eating disorder
+source_base: One large study
+source_new: One large study"
+A recent Norwegian study reveals that walking for 100 minutes weekly can significantly reduce chronic lower back pain by 23%.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.77
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: significantly reduce
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people who do not walk 100 minutes per week
+reference_class_description_new: people who walk 100 minutes per week 
+source_base: recent Norwegian study
+source_new: recent Norwegian study"
+"Currently, dementia affects an estimated 6.9 million Americans, or about 2% of the population. That number is expected to double by 2060 as Millennials reach and surpass age 70 -- when cognitive decline on average first appears -- with Gen Z'ers (born from the mid-1990s to roughly 2010) hot on their aging heels.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2%
+absolute_risk_new: null
+absolute_number_base: 6900000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 2.0
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: expected to double
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people affected by dementia in the U.S. in the current year 
+reference_class_description_new: people projected to be affected by dementia in the U.S. in 2060
+source_base: null
+source_new: null"
+"In two clinical trials called PURPOSE 1 and PURPOSE 2, lenacapavir worked extremely well to prevent HIV infections in both men and women. More than 99.9% of participants taking the twice-a-year shot remained HIV negative during the studies.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 99,90%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: more than 99,9%
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: participants taking the twice-a-year lenacapavir shot in the PURPOSE trials 
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Their nationally representative analysis found that ""among those who had never had a major cardiovascular event, just under half -- 47 percent -- were eligible for cholesterol-lowering drugs under U.S. guidelines but only 23 percent were taking them,"" the news release reported.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 47%
+absolute_risk_new: 23%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: just under half
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people without prior cardivascular events who are eligible for cholesterol-lowering drugs
+reference_class_description_new: people without prio cardiovascular events who are actually taking cholesterol-lowering drugs 
+source_base: the news release 
+source_new: the news release "
+"Lyme disease cases in Michigan have increased by 168% over the last five years, the Michigan Department of Health and Human Services said. The state recorded 1,215 cases in 2024, compared to 452 cases in 2020.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 452.0
+absolute_number_new: 1215.0
+absolute_risk_difference: null
+relative_risk: 2.68
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: reported Lyme disease cases in Michigan in 2020
+reference_class_description_new: reported Lyme disease cases in Michigan in 2024
+source_base: null
+source_new: null"
+"Adults who received the recombinant shingles vaccine Shingrix or the respiratory syncytial virus (RSV) vaccine Arexvy -- both of which contain the AS01 adjuvant -- had a lower risk for dementia in the 18 months after vaccination than peers who received the flu vaccine, which does not contain the AS01 adjuvant, investigators found.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: lower risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: adults who received the flu vaccine (without AS01 adjuvant)
+reference_class_description_new: adults who received the Shingrix or Arexvy vaccine (with AS01 adjuvant)
+source_base: investigators
+source_new: investigators"
+The new diabetes treatment reduced the incidence of severe cardiovascular events by 35% in patients at high risk. These results mark a major breakthrough and support broader use of the therapy in routine care.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.65
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: patients at high risk receiving the new treatment
+source_base: null
+source_new: null"
+"According to a report by the World Health Organization, the absolute 10-year risk of stroke in untreated hypertensive adults over 60 is approximately 12%. In a cohort receiving the new antihypertensive drug, 48 participants experienced a stroke during the same period, representing a relative risk of 0.4 compared to the untreated group.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 48.0
+absolute_risk_difference: null
+relative_risk: 0.4
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: untreated hypertensive adults over 60
+reference_class_description_new: hypertensive adults over 60 receiving the new drug
+source_base: World Health Organization
+source_new: World Health Organization"
+"In the study, 166 people who had received a third dose of Pfizer (following Pfizer or AstraZeneca initial doses in June 2021) were randomised to receive either full dose Pfizer or half dose Moderna as a fourth dose.","risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In the period when the research was done, the chance of having a new diagnosis of a neuropsychiatric condition was higher for people who had been hospitalised either for Covid-19 or for some other serious respiratory disease, than for the general public","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: was higher
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: general public
+reference_class_description_new: people who had been hospitalised either for Covid-19 or for some other serious respiratory disease
+source_base: null
+source_new: null"
+It adds to a large body of evidence showing that COVID-19 is associated with an increased risk of neuropsychiatric diagnoses.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: increased risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: people with prior COVID-19 infection
+source_base: null
+source_new: null"
+A study today from the Netherlands exploring binding and neutralising antibody titres following use of various COVID vaccines in the healthcare workforce at the same institution demonstrates once more that antibody titres following the viral vector vaccines tend to be lower than following mRNA vaccines,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: trend to be lower
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: healthcare workers vaccinated with mRNA COVID vaccines
+reference_class_description_new: healthcare workers vaccinated with viral vector vaccines
+source_base: study from the Netherlands
+source_new: study from the Netherlands"
+The second observation suggests that the antiviral effect of viral vector vaccines vs virus variants may also be lower than following vaccination with mRNA vaccines has also been suggested by other groups,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: may also be lower
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people vaccinated with mRNA vaccines against virus variants
+reference_class_description_new: people vaccinated with mRNA vaccines against virus variants
+source_base: null
+source_new: null"
+In another study (Reissland et al 2018) we found that fetuses in the third trimester reacted differentially to sound and light stimulation depending on maternal mental health status with a 20% increase in fetal eyeblink for each unit increase in anxiety score indicating that fetuses are affected differentially by maternal anxiety ,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 1.2
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: fetuses in the third trimester whose mothers have lower anxiety scores
+reference_class_description_new: fetuses in the third trimester whose mothers have one unit increase in anxiety score
+source_base: study (Reissland et al 2018)
+source_new: study (Reissland et al 2018)"
+"In a randomized controlled trial of 4,800 patients with type 2 diabetes, 122 participants out of 2400 in the placebo group experienced a major cardiovascular event within 24 months. In contrast, only 67 participants out of 2400 receiving the new GLP-1 receptor agonist had such an event over the same period.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 122.0
+absolute_number_new: 67.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: inevitably climb 
+reference_class_size_base: 2400.0
+reference_class_size_new: 2400.0
+reference_class_description_base: patients with type 2 diabetes in the placebo group over 24 months
+reference_class_description_new: patients with type 2 diabetes receiving the GLP-1 agonist over 24 months
+source_base: null
+source_new: null"
+"Prospective studies in China, Denmark, and Norway have all demonstrated the percentage of people who experience any residual symptoms (irrespective of how minor) to be significantly higher than our figures","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: significantly higher
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people in our cohort reporting any residual symptons
+reference_class_description_new: people in China, Denmark and Norway reporting any residual symptoms
+source_base: our figures
+source_new: Prospective studies in China, Denmark and Norway"
+The ONS has already demonstrated that the likelihood of developing long COVID in a fully vaccinated population are reduced by about 40% compared to an unvaccinated population,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: reduced by about 40%
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: unvaccinated people in the population
+reference_class_description_new: fully vaccinated people in the population 
+source_base: ONS
+source_new: ONS"
+"As previously reported, a single intramuscular (IM) injection of 600mg Evusheld reduced the need for hospitalisation/death due to COVID by at least 50% ","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: reduced by at least 50%
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people not treated with Evusheld before COVID
+reference_class_description_new: people who received a single IM injection of Evusheld before Covid infection
+source_base: null
+source_new: null"
+"We also are given no information about the age at which diagnoses were made. The reports of disorders of motor function are more plausible at this young age: These affected 99/7550 (1.3%) of non-Covid cases, and 6/222 (2.7%) of Covid cases.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1,30%
+absolute_risk_new: 2,70%
+absolute_number_base: 99.0
+absolute_number_new: 6.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: 7550.0
+reference_class_size_new: 222.0
+reference_class_description_base: non-Covid cases
+reference_class_description_new: people of young age with no covid 
+source_base: people of young age with covid 
+source_new: null"
+It is worth noting that 97% of infants with no Covid exposure vs 94% of those with Covid exposure received no neurodevelopmental diagnosis. ,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 97%
+absolute_risk_new: 94%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: infants with no Covid exposure
+reference_class_description_new: infants with Covid exposure
+source_base: null
+source_new: null"
+"According to the CDC, people who received the seasonal flu vaccine were around 60% less likely to be hospitalized for influenza-related complications compared to unvaccinated individuals.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.4
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: unvaccinated individuals 
+reference_class_description_new: people who received the seasonal flu vaccine
+source_base: CDC
+source_new: CDC"
+"In 2022, hospitals across Germany documented a total of 12,843 cases in which patients experienced severe allergic reactions after taking prescribed medication.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 12843.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: patients after taking prescribed medication in hosptials in Germany in 2022
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In a group of 1,000 people like those in the study, who were first infected during the Delta period, and had had their most recent vaccination more than 3 months ago, about 125 would have reported symptoms going on for four or more weeks.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 125.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: 1000.0
+reference_class_description_base: people infected during the Delta period whose most recent vaccination was more than 3 months ago
+reference_class_description_new: null
+source_base: null
+source_new: null"
+Children have a lower risk of severe acute COVID-19 than adults.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: lower risk
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children
+reference_class_description_new: adults
+source_base: null
+source_new: null"
+"Estimates show that the rate of Long Covid disease may be as high as 43% globally, resulting in an estimated 3.1% of the UK population experiencing persistent symptoms following SARS-CoV-2 infection, as reported by the ONS","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 43%
+absolute_risk_new: 3,10%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: Long Covid disease globally
+reference_class_description_new: UK population experiencing persistent symptoms following SARS-CoV-2 infection
+source_base: recent studies
+source_new: ONS"
+"In February, Prof Selina Kikkenborg Berg and colleagues reported on the rate of persistent symptoms in children aged 15-18 in Denmark, finding that children with confirmed SARS-CoV-2 infections were nearly 5% more likely to report at least one persistent symptom lasting 2 months or more","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: nearly 5% more likely 
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children aged 15-18 in Denmark without confirmed SARS-CoV-2 infection
+reference_class_description_new: children aged 15-18 in Denmark with confirmed SARS-CoV-2 infection
+source_base: Prof Selina Kikkenborg Berg and colleagues 
+source_new: Prof Selina Kikkenborg Berg and colleagues "
+"These findings add to different measures used in the recent ONS release, which found in children who met the UK CLoCK study definition for Long Covid, 28% had a probable mental disorder (compared to 12% who didn’t experience Long Covid).","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: 28%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: Children without Long Covid
+reference_class_description_new: Children with Long Covid
+source_base: recent ONS release
+source_new: recent ONS release"
+"In this database, CP was diagnosed in 2 in 1000 births.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2/1000
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: in this database
+source_new: null"
+"By 2030, research from VUB and Save the Children suggests that 84% of children born in 2020 — around 101 million kids — will experience lifelong exposure to extreme heat.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 84%
+absolute_risk_new: null
+absolute_number_base: 101000000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children born globally in 2020
+reference_class_description_new: null
+source_base: research from VUB and Save the Children
+source_new: null"
+"90% of popular fruits and vegetables tested by federal agencies showed potentially harmful pesticide residues, according to the Environmental Working Group's 2025 Shopper's Guide to Pesticides in Produce, CNN reported.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 90%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: more than
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: popular fruits and vegetables 
+reference_class_description_new: null
+source_base: Environmental Working Group's 2025 Shopper's Guide to Pesticides in Produce, CNN
+source_new: null"
+"The health impacts of extreme heat are vast. During the 2022 heatwave, which lasted about 2 weeks, around 5,000 people over the age of 70 died prematurely.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 5000.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: over
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: people over the age 70
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"According to the German Weather Service (DWD), a severe weather warning is in place for 41 districts. The probability of flooding is 60%","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 60%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: 41 districts with severe weather warning
+reference_class_description_new: null
+source_base: German Weather Service (DWD)
+source_new: null"
+"According to EFSA, 12% of the fruit samples tested exceeded EU limits. There is no acute health risk, but long-term risks are unclear.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base:  fruit samples tested
+reference_class_description_new: null
+source_base: EFSA
+source_new: null"
+"In coastal Bangladesh, the probability of being displaced by flooding within a year is estimated at 2.3% among residents in low-lying areas.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2,3%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: residents in low-lying areas in coastal Bangladesh
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In 2024, 112 heavy rain events were reported – 36 more than in 2023.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 112.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: 36.0
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: heavy rain events in 2023
+reference_class_description_new: heavy rain events in 2024
+source_base: null
+source_new: null"
+"In 2024, 1,450 hectares of forest burned, while in 2022 only 790 hectares burned – an increase of 660 hectares.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 790.0
+absolute_number_new: 1450.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: 660.0
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: forests in 2022
+reference_class_description_new: forests in 2024
+source_base: null
+source_new: null"
+The probability of heavy rainfall like the flood was 4.5  times higher due to climate change than in a world without human influence.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 4.5
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: heavy rainfall events in world without human influence
+reference_class_description_new: heavy rainfall events in world without human influence
+source_base: null
+source_new: null"
+"According to a report by the European Environment Agency, approximately 1.5% of urban populations in southern Europe are currently affected by heatwaves annually. This number is expected to rise to 2.5% by 2030.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 1,5%
+absolute_risk_new: 2,5%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 7.0
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: urban populations in southern Europe currently affected by heatwaves each year
+reference_class_description_new: urban populations in southern Europe affected by heatwaves in 2030
+source_base: null
+source_new: null"
+"In Frankfurt, a total of 34 hot days above 35°C were measured in 2024 – twice as many as the average for the years 1991-2020.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 34.0
+absolute_risk_difference: null
+relative_risk: 2.0
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: twice
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: average number of hot days above 35°C in Frankfurt for the years 1991-2020
+reference_class_description_new: number of hot days above 35°C in Frankfurt in 2024
+source_base: null
+source_new: null"
+"During the hot summer of 2024, there were 318 heat-related disruptions to rail traffic.
+This number more than doubled compared to 2019 (143 cases).","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 143.0
+absolute_number_new: 318.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: more than doubled
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: heat-related disruptions to rail traffic in 2019
+reference_class_description_new: heat related disruptions to rail traffic in 2024
+source_base: null
+source_new: null"
+"In Belgium, 35 cases of storm surge were recorded in 2025—five more cases than in the previous year. This represents an increase of 16.7%.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: 35.0
+absolute_risk_difference: null
+relative_risk: 1.167
+absolute_number_difference: 5.0
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: recorded storm surges in Belgium in 2025
+reference_class_description_new: recorded storm surges in Belgium in the previous year
+source_base: null
+source_new: null"
+"In the Netherlands, 12% of the dike kilometers are currently considered critical.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 12%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: dike kilometers considered critical
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In Spain, 87 of the rivers were below critical low water levels.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 87.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: rivers in spain below critical low water levels
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"In 2025, 91 major wildfires were recorded, compared to 28 wildfires in 2015.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 28.0
+absolute_number_new: 91.0
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: major wildfire recorded in 2015
+reference_class_description_new: major wildfire recorded in 2025
+source_base: null
+source_new: null"
+"In flood-affected regions, the risk of death among children under 5 years of age was 2.1 times higher than in unaffected comparison regions","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 2.1
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: children under 5 years in unaffected comparison regions
+reference_class_description_new: children under 5 years in flood-affected regions
+source_base: null
+source_new: null"
+"In the Cologne region, the absolute risk that a household in a designated flood zone is affected at least once a year is 14%.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 14%
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: housholds in a designated flood zone in the cologne region
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"41% of irrigated arable land in Southern Europe is considered to be “at risk of flood stress” – in 2010, the figure was only 27%.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 27%
+absolute_risk_new: 41%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: irrigated arable land in Southern Europe in 2010
+reference_class_description_new: irrigated arable land in Southern Europe currently
+source_base: null
+source_new: null"
+"In 2023, 1.9% of the total forest area was lost, compared to 2.5% in 2022. The decline thus amounts to 0.6 percentage points.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 2,50%
+absolute_risk_new: 1,90%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: 0.006
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: total forest area lost in 2022
+reference_class_description_new: total forest area lost in 2023
+source_base: null
+source_new:  "
+Sea levels are projected to rise by up to one meter by the end of the century if emissions continue at current rates. This poses a significant risk to coastal communities worldwide.,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: significant risk 
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: coastal communities worldwide
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"The conference on climate innovation will take place in Geneva this September, featuring experts from over 40 countries.","risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Some weeks ago, the soil was significantly cleaner than it is now. ","risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"It is estimated that 80–90 percent of the methane from permafrost thaw may not reach the atmosphere immediately, depending on microbial activity and soil saturation — which complicates long-term projections.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 0,85
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: methane released from thawing permafrost that does not immediately reach the atmosphere
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"If global warming continues, we might see more heatwaves, declining fish stocks, rising mental health issues in adolescents, and disruptions to international trade routes due to melting Arctic ice.","risk_communication: 1
+unrelated_risks: 1.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"Experts warn that increasing wildfire frequency (up 150% in some regions), coastal property devaluation projected at $108 billion by 2100, a 12% rise in asthma cases among children, and the spread of invasive insect species across 30 new U.S. states are all potential outcomes of a warming planet — though regional variation remains high.","risk_communication: 1
+unrelated_risks: 1.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+"The likelihood of extreme heatwaves in Southern Europe is now considered extremely high during summer months, especially compared to the early 2000s where it was considered as moderately low.","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: considered as moderatly low
+verbal_descriptor_new: considered extremly high
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: summer months in Southern Europe during the early 2000s
+reference_class_description_new: summer months in Southern Europe in the present day
+source_base: null
+source_new: null"
+"Geo-engineering will reduce the number of extreme storms by 20%. In 2024, 20678 of these events happened. ","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: 20678.0
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: 0.8
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: extreme storms in 2024
+reference_class_description_new: extreme storms expected to occur with geo-engineering implementation
+source_base: null
+source_new: null"
+"A lot of experts say that climate change is a hoax, according to the American President. ","risk_communication: 0
+unrelated_risks: null
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: null
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: null
+reference_class_description_new: null
+source_base: null
+source_new: null"
+Ecosystems are nearly six times less endangered since the EU voted for the anti-pesticide law in May 2023. ,"risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: null
+absolute_risk_new: null
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: nearly six times less endangered
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: ecosystems before the EU anti-pesticide law in May 2023
+reference_class_description_new: ecosystems after the EU anti-pesticide law in May 2023
+source_base: null
+source_new: null"
+"Some regions in Mexico have 5,2% of rain days per year, while Europe has 11% of rain days per year. This is almost 2 times as much. ","risk_communication: 1
+unrelated_risks: 0.0
+absolute_risk_base: 5,20%
+absolute_risk_new: 11%
+absolute_number_base: null
+absolute_number_new: null
+absolute_risk_difference: null
+relative_risk: null
+absolute_number_difference: null
+verbal_descriptor_base: null
+verbal_descriptor_new: null
+verbal_descriptor_change: almost 2 times as much
+reference_class_size_base: null
+reference_class_size_new: null
+reference_class_description_base: rain days in some regions of Mexico
+reference_class_description_new: rain days in Europe
+source_base: null
+source_new: null"
