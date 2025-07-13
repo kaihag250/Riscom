@@ -125,9 +125,9 @@ document.addEventListener("DOMContentLoaded", () => {
               L2: "Initially-Transparent",
               L3: "Intransparent",
               L4: "Intransparent",
-              R1_1: "Transparent",
-              R2_1: "Initially-Transparent",
-              R3_1: "Intransparent",
+              "R1.1": "Transparent",
+              "R2.1": "Initially-Transparent",
+              "R3.1": "Intransparent",
               NN: "Intransparent",
               UR: "Initially-Transparent"
             };
