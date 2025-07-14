@@ -58,6 +58,12 @@ document.addEventListener("DOMContentLoaded", () => {
         let selectedText = results[0].result || "";
         selectedText = cleanText(selectedText); // 🧼 Bereinigung
 
+       if (!selectedText || selectedText.length < 5) {
+         outputText.innerText = "⚠️ No valid text selected. Please mark some meaningful text.";
+         outputText.style.display = "block";
+         resetButton();
+         return; }
+
         ["outputText", "outputVerbal", "outputQuelle", "outputReference"].forEach(id => {
           const el = document.getElementById(id);
           el.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
