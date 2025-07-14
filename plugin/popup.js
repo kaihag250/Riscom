@@ -24,6 +24,16 @@ function formatTextBold(text, includeNumbers = false) {
   return text;
 }
 
+// 🔧 Neue Funktion zur Textbereinigung
+function cleanText(text) {
+  return text
+    .replace(/[\u200B-\u200D\uFEFF]/g, '')  // Zero-width chars
+    .replace(/\u00A0/g, ' ')                // Geschützte Leerzeichen
+    .replace(/\r?\n|\r/g, ' ')              // Zeilenumbrüche
+    .replace(/\s+/g, ' ')                   // Mehrfache Leerzeichen
+    .trim();
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const btn = document.getElementById("analyze");
   const analyzeText = document.getElementById("analyzeText");
@@ -45,7 +55,8 @@ document.addEventListener("DOMContentLoaded", () => {
         func: () => window.getSelection().toString()
       },
       async (results) => {
-        const selectedText = results[0].result.trim();
+        let selectedText = results[0].result || "";
+        selectedText = cleanText(selectedText); // 🧼 Bereinigung
 
         ["outputText", "outputVerbal", "outputQuelle", "outputReference"].forEach(id => {
           const el = document.getElementById(id);
@@ -85,7 +96,6 @@ document.addEventListener("DOMContentLoaded", () => {
               eval_case_overall
             } = data.advice;
 
-            // ✨ Hier wird HTML formatiert und fett hervorgehoben
             outputText.innerHTML = formatTextBold(message_quant, true);
             outputReference.innerHTML = formatTextBold(message_reference);
             outputVerbal.innerHTML = formatTextBold(message_verbal);
