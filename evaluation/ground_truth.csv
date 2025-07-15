@@ -240,7 +240,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: 0.39
+relative_risk: 1.39
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -258,7 +258,7 @@ absolute_risk_new: null
 absolute_number_base: 452.0
 absolute_number_new: 1215.0
 absolute_risk_difference: null
-relative_risk: 1.68
+relative_risk: 2.68
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -348,7 +348,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: -0.9
+relative_risk: 0.1
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -366,7 +366,7 @@ absolute_risk_new: null
 absolute_number_base: 700000.0
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: 0.22
+relative_risk: 1,22
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -384,7 +384,7 @@ absolute_risk_new: 8,8%
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 2
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -510,7 +510,7 @@ absolute_risk_new: 4,40%
 absolute_number_base: null
 absolute_number_new: 260000.0
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 4
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -708,7 +708,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 11
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -744,7 +744,7 @@ absolute_risk_new: null
 absolute_number_base: 6900000.0
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: 2.0
+relative_risk: 2
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1014,7 +1014,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 0.6
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1032,7 +1032,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 0.5
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1176,7 +1176,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 1.05
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1392,7 +1392,7 @@ absolute_risk_new: 2,5%
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: 7.0
+relative_risk: null
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1410,7 +1410,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: 34.0
 absolute_risk_difference: null
-relative_risk: 2.0
+relative_risk: 2
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1429,7 +1429,7 @@ absolute_risk_new: null
 absolute_number_base: 143.0
 absolute_number_new: 318.0
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 2
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1753,7 +1753,7 @@ absolute_risk_new: null
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 2025-06-01 00:00:00
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
@@ -1771,7 +1771,7 @@ absolute_risk_new: 11%
 absolute_number_base: null
 absolute_number_new: null
 absolute_risk_difference: null
-relative_risk: null
+relative_risk: 2
 absolute_number_difference: null
 verbal_descriptor_base: null
 verbal_descriptor_new: null
