@@ -3,20 +3,17 @@ const SERVER_URL = "http://193.196.39.15:8000/extract";
 function formatTextBold(text, includeNumbers = false) {
   if (!text) return "";
 
-  // Sonderzeichen escapen
   text = text
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;");
 
-  // Schlagwörter fett
   const keywords = ["Caution", "Attention", "Warning"];
   keywords.forEach(word => {
     const regex = new RegExp(`\\b(${word})\\b`, "gi");
     text = text.replace(regex, "<b>$1</b>");
   });
 
-  // Zahlen fett (optional)
   if (includeNumbers) {
     text = text.replace(/(\d+(\.\d+)?%?)/g, "<b>$1</b>");
   }
@@ -24,13 +21,16 @@ function formatTextBold(text, includeNumbers = false) {
   return text;
 }
 
-// 🔧 Neue Funktion zur Textbereinigung
 function cleanText(text) {
+  if (!text) return "";
+
   return text
-    .replace(/[\u200B-\u200D\uFEFF]/g, '')  // Zero-width chars
-    .replace(/\u00A0/g, ' ')                // Geschützte Leerzeichen
-    .replace(/\r?\n|\r/g, ' ')              // Zeilenumbrüche
-    .replace(/\s+/g, ' ')                   // Mehrfache Leerzeichen
+    .replace(/[\u200B-\u200D\uFEFF\u00AD]/g, "") // Zero-width + Soft hyphen
+    .replace(/\u00A0/g, " ")                     // Geschütztes Leerzeichen
+    .replace(/[“”]/g, '"')                       // Typografische Anführungszeichen
+    .replace(/[‘’]/g, "'")                       // Typografische Apostrophe
+    .replace(/[–—]/g, "-")                       // Gedankenstriche
+    .replace(/\s+/g, " ")                        // Mehrere Whitespaces
     .trim();
 }
 
@@ -52,29 +52,57 @@ document.addEventListener("DOMContentLoaded", () => {
     chrome.scripting.executeScript(
       {
         target: { tabId: tab.id },
-        func: () => window.getSelection().toString()
+        func: () => {
+          const selection = window.getSelection();
+          if (!selection.rangeCount) return "";
+
+          let fullText = "";
+          try {
+            const range = selection.getRangeAt(0);
+            const fragment = range.cloneContents();
+
+            const walker = document.createTreeWalker(fragment, NodeFilter.SHOW_TEXT, null, false);
+            let node;
+            while ((node = walker.nextNode())) {
+              fullText += node.textContent;
+            }
+          } catch (e) {
+            // fallback kommt gleich
+          }
+
+          if (!fullText || fullText.trim().length < 5) {
+            fullText = selection.toString();
+          }
+
+          function cleanText(text) {
+            if (!text) return "";
+            return text
+              .replace(/[\u200B-\u200D\uFEFF\u00AD]/g, "") // Zero-width + Soft hyphen
+              .replace(/\u00A0/g, " ")                     // Geschütztes Leerzeichen
+              .replace(/[“”]/g, '"')                       // Typografische Anführungszeichen
+              .replace(/[‘’]/g, "'")                       // Typografische Apostrophe
+              .replace(/[–—]/g, "-")                       // Gedankenstriche
+              .replace(/\s+/g, " ")                        // Mehrere Whitespaces
+              .trim();
+          }
+
+          return cleanText(fullText);
+        }
       },
       async (results) => {
         let selectedText = results[0].result || "";
-        selectedText = cleanText(selectedText); // 🧼 Bereinigung
 
-       if (!selectedText || selectedText.length < 5) {
-         outputText.innerText = "⚠️ No valid text selected. Please mark some meaningful text.";
-         outputText.style.display = "block";
-         resetButton();
-         return; }
+        if (!selectedText || selectedText.length < 5) {
+          outputText.innerText = "⚠️ No valid text selected. Please mark some meaningful text.";
+          outputText.style.display = "block";
+          resetButton();
+          return;
+        }
 
         ["outputText", "outputVerbal", "outputQuelle", "outputReference"].forEach(id => {
           const el = document.getElementById(id);
           el.classList.remove("Transparent", "Initially-Transparent", "Intransparent");
         });
-
-        if (!selectedText) {
-          outputText.innerText = "⚠️ No text selected.";
-          outputText.style.display = "block";
-          resetButton();
-          return;
-        }
 
         if (selectedText.length > 650) {
           outputText.innerText = "⚠️ The selected text exceeds the maximum text length.";
@@ -181,3 +209,4 @@ document.addEventListener("DOMContentLoaded", () => {
     btn.disabled = false;
   }
 });
+
