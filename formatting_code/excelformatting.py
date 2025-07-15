@@ -24,7 +24,7 @@ output_fields = [
     'reference_class_description_base',
     'reference_class_description_new',
     'source_base',
-    'source_new'
+    'source_new'2
 ]
 # === 3. Format output string ===
 def format_output(row):
