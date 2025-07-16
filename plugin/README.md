@@ -39,6 +39,25 @@
 - **Only an absolute risk difference is detected:**
   - An absolute risk difference is identified, but no absolute risks could be extracted or calculated.
   - ⚠️ An absolute risk difference alone is also **insufficient for meaningful interpretation**
+
+
+- **Colour logic:**
+  The plug-in highlights evaluation boxes in three colours: green, yellow, and red, depending on the reliability and completeness of
+  the extracted information.
+  - *Evaluation:*
+    Green: Absolute risk(s) are initially given in the text.
+    Yellow: Absolute risk(s) were not initially given, but could be calculated by the tool (based on the extracted information).
+    Red: Absolute risk(s) could neither be extracted nor calculated.
+  - *Reference class:*
+    Green: reference class(es) was detected.
+    Yellow: no reference class was detected.
+  - *Verbal risks:*
+    The box appears, if verbal risks were detected.
+    The box is always yellow since verbal risks should be handled with caution!
+  - *Source:*
+    The box is always yellow. Users are advised to check credibility if a source is given, and be especially cautious if no source
+    was found.
+
  
 
 
