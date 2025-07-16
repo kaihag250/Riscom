@@ -1,9 +1,9 @@
 import pandas as pd
 
-# Excel-Datei laden
-df = pd.read_excel("inference_testing_results_1107.xlsx")
+# load excel
+df = pd.read_excel("inference_testing_results.xlsx")
 
-# Als CSV speichern
+# csv file
 df.to_csv("model_output.csv", index=False)
 
-print("Datei erfolgreich als CSV gespeichert.")
+print("data as csv")
