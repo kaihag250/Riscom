@@ -64,11 +64,13 @@
     It is preferred over relative risk and should always be reported for all comparison groups or time points.
     It can be expressed as percentages or as natural frequencies (e.g., “5 out of 100 people”).
   - **Absolute risk difference:**
+    
     Absolute risk difference is the numerical difference between two absolute risks (e.g., 0.06% – 0.02% = 0.04 percentage points).
     It reflects the actual change in risk.
     Unlike relative risk, it avoids overestimating effects when the base risk is low.
     A large relative risk can still correspond to a small absolute risk difference.
   - **Relative risk:**
+    
     A relative risk compares the likelihood of an event between two groups — often expressed as multiples ("3 times more likely").
     The relative risk is the ratio between two risks.
     In our tool, the relative risk is defined as follows:
@@ -77,6 +79,7 @@
     They should never be presented without the corresponding absolute risks (especially the baseline risk in the comparison group).
     Transparent communication requires at least stating at the absolute risk for the base case.
   - **Relative risk increase/ decrease:**
+    
     Describes how much the risk increases or decreases in relative terms between two groups. The change is expressed as percentage above
     or below the base.
     It is calculated as follows:
@@ -84,6 +87,7 @@
     Relative Risk Decrease = (1 − Relative risk) × 100% (if Relative risk < 1)
     Example: A relative risk of 0.5 means a 50% risk reduction.
   - **Reference class:**
+    
     Specifies the group of people or cases to which the risk statement applies.
     It defines the denominator or population context, such as:
     “Smokers aged 50–70”, “Women with pre-existing conditions”, or “Children under 5”.
