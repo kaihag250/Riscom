@@ -59,6 +59,7 @@
     
 - **Definitions of important terms for understanding risk communication:**
   - **Absolute risk:**
+    
     Absolute risk refers to the actual probability that a specific event (e.g., illness, recovery, death) occurs in a group.
     It is preferred over relative risk and should always be reported for all comparison groups or time points.
     It can be expressed as percentages or as natural frequencies (e.g., “5 out of 100 people”).
