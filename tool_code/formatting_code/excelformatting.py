@@ -1,9 +1,9 @@
 import pandas as pd
 
-# === 1. Load the Excel file ===
+# Load Excel file
 df = pd.read_excel("testing_groundtruth.xlsx")
 
-# === 2. Define the text and output fields ===
+# Define text and output fields
 text_col = "Unnamed: 0"
 
 output_fields = [
@@ -26,7 +26,7 @@ output_fields = [
     'source_base',
     'source_new'
 ]
-# === 3. Format output string ===
+# format output string
 def format_output(row):
     lines = []
     for col in output_fields:
@@ -37,7 +37,7 @@ def format_output(row):
             lines.append(f"{col}: {val}")
     return "\n".join(lines)
 
-# === 4. Build training DataFrame ===
+# Build training DataFrame
 formatted_df = pd.DataFrame()
 formatted_df["input"] = df[text_col]
 formatted_df["output"] = df.apply(format_output, axis=1)
@@ -48,4 +48,4 @@ formatted_df = formatted_df.dropna(subset=["input"])
 # === 5. Save to CSV ===
 output_path = "ground_truth.csv"
 formatted_df.to_csv(output_path, index=False)
-print(f"✅ Saved: {output_path} with 'input' and 'output' columns including nulls.")
+print(f"Saved: {output_path} with 'input' and 'output' columns including nulls.")
