@@ -1,19 +1,3 @@
-# Version 04_07
-# NOCH UMZUSETZEN:
-# Verbesserung der Sätze -> sollen weniger technisch wirken, bei Nico nochmal anschauen
-
-# Änderungen im Vergleich zu 02_07: 
-# Rausstreichen von topic_and_unit
-# Absolute risk difference --> ausgegeben, wenn beide absolute risks berechenbar oder keins 
-
-# Änderungen im Vergleich zu 01_07:
-# UMGESETZT:
-# Single_Case_New rausgestrichen und immer Warnung bei einem Case -> 2. Baum anpassen
-# Neues Handling der reference class descriptions -> PRÜFEN !!!
-# Relative risk wird zusätzlich zu relative risk increase/ decrease ausgegeben
-# Berechnungslogik erweitern: wenn absolute risk difference und relative risk -> berechenbar
-# Berechnungslogik läuft als n=2 Loop
-
 class RiskEvaluator:
     def __init__(self):
         # Originale LLM-Werte
@@ -154,10 +138,10 @@ class RiskEvaluator:
         if value * 100 < 1:
             # Kleiner als 1% → als x/100000
             per_100k = value * 100000
-            return f"{per_100k:.0f} in 100.000 or {value * 100:.2f}%"
+            return f"{per_100k:.4g} in 100,000 or {value * 100:.4g}%"
         else:
             # Ab 1% → mit zwei Nachkommastellen
-            return f"{value * 100:.2f}%"
+            return f"{value * 100:.4g}%"
 
     # Case Zuordnung und Berechnungen 
     def evaluate(self):
@@ -203,7 +187,7 @@ class RiskEvaluator:
                     elif w["absolute_number_new"] is not None and w["absolute_number_base"] is None:
                         w["absolute_number_base"] = w["absolute_number_new"] - w["absolute_number_difference"]
 
-                # Absolute Risiken berechnen aus Zahlen + Referenzgrößen -> aber nicht gegebenes absolutes Risiko überschreiben
+                # Absolute Risiken berechnen aus Zahlen + Referenzgrößen -> ABER NICHT GEGEBENES ABSOLUTES RISIKO ÜBERSCHREIBEN
                 if w["absolute_number_base"] is not None and w["reference_class_size_base"] is not None and w["reference_class_size_base"] != 0 and w["absolute_risk_base"] is None:
                     w["absolute_risk_base"] = w["absolute_number_base"] / w["reference_class_size_base"]
                 if w["absolute_number_new"] is not None and w["reference_class_size_new"] is not None and w["reference_class_size_new"] != 0 and w["absolute_risk_new"] is None:
@@ -215,26 +199,27 @@ class RiskEvaluator:
                 if w["absolute_risk_new"] is not None and w["absolute_risk_difference"] is not None and w["absolute_risk_base"] is None:
                     w["absolute_risk_base"] = w["absolute_risk_new"] - w["absolute_risk_difference"]
 
-                # Relatives Risiko → berechne fehlende absolute Risiken
+                # Relatives Risiko → berechne fehlende absolute Risiken --> an vorletzter Stelle?, denn robuster von LLM als absolute_risk_difference
                 if w["relative_risk"] is not None:
                     if w["absolute_risk_base"] is not None and w["absolute_risk_new"] is None:
                         w["absolute_risk_new"] = w["absolute_risk_base"] * (w["relative_risk"]) # Konsistenz überprüfen !!!
                     elif w["absolute_risk_new"] is not None and w["absolute_risk_base"] is None:
                         w["absolute_risk_base"] = w["absolute_risk_new"] / (w["relative_risk"]) # Konsistenz überprüfen !!!
 
-                # Relatives Risiko berechnen, falls möglich
+                # Relatives Risiko berechnen, falls möglich UND NÖTIG
                 if w["absolute_risk_base"] and w["absolute_risk_new"] and w["relative_risk"] is None:
                     w["relative_risk"] = (w["absolute_risk_new"] / w["absolute_risk_base"]) # Konsistenz prüfen !!!
 
-                # Absolute Risiken berechnen aus absolute_risk_difference und relative_risk
-                if w["absolute_risk_difference"] is not None and w["relative_risk"] is not None:
+                # Absolute Risiken berechnen aus: absolute_risk_difference und relative_risk
+                if w["absolute_risk_difference"] is not None and w["relative_risk"] is not None and w["absolute_risk_base"] is None and w["absolute_risk_new"] is None:
                     if w["relative_risk"] != 1:
                         w["absolute_risk_base"] = w["absolute_risk_difference"] / (w["relative_risk"] - 1)
+                        w["absolute_risk_new"] = w["relative_risk"] * w["absolute_risk_base"]
 
-                # Absolute Risikodifferenzberechnen
+
+                # Absolute Risikodifferenz berechnen, FALLS NÖTIG 
                 if w["absolute_risk_base"] is not None and w["absolute_risk_new"] is not None:
                         w["absolute_risk_difference"] = w["absolute_risk_new"] - w["absolute_risk_base"] # Konsistenz überprüfen !!!
-            
 
             # Überprüfung was berechnet wurde und was nicht
             # Absolute_risk base 
@@ -338,38 +323,41 @@ class RiskEvaluator:
                     if calculated:
                         calculated_string += "The tool calculated the following values: " + ", ".join(calculated) + ".\n"
 
-                    # Initial Transparent (L1)
+                    # Initial Transparent (L1): Beide absoluten Risiken initial gegeben --> HIER ÄNDERUNG DURCHFÜHREN !!!
                     # Beide absoluten Risiken und relatives Risiko gegeben
-                    if self.output["eval_3_abs_base"] == "G" and self.output["eval_3_abs_new"] == "G" and self.output["eval_3_relative"] == "G":
+                    if self.output["eval_3_abs_base"] == "G" and self.output["eval_3_abs_new"] == "G":
                         message_quant += f"The absolute risk in the base case is: {self.format_risk(self.llm_values.get('absolute_risk_base'))}\n"
                         message_quant += f"The absolute risk in the new case is: {self.format_risk(self.llm_values.get('absolute_risk_new'))}\n"
+                        # Falls absolute_risk_difference initial gegeben, wird diese ausgegeben
                         if self.output["eval_3_abs_diff"] == "G":
-                            message_quant += f"The absolute risk difference is: {self.format_risk(self.llm_values.get('absolute_risk_difference'))}\n"
-                        elif self.output["eval_3_abs_diff"] == "C":
-                            message_quant += f"The (calculated) absolute risk difference is: {self.format_risk(w['absolute_risk_difference'])}\n"
-                        message_quant += f"The relative risk is: {self.llm_values.get('relative_risk'):.4g}\n"
-                        relative_risk_percent = (self.llm_values.get("relative_risk") - 1) * 100
-                        direction = "increase" if relative_risk_percent > 0 else "decrease"
-                        message_quant += f"The relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
-                        self.output["eval_case_overall"] = "L1" #################
-                    # Beide absoluten Risiken gegeben, aber relatives Risiko berechnet
-                    elif self.output["eval_3_abs_base"] == "G" and self.output["eval_3_abs_new"] == "G" and self.output["eval_3_relative"] == "C":
-                        message_quant += f"The absolute risk in the base case is: {self.format_risk(self.llm_values.get('absolute_risk_base'))}\n"
-                        message_quant += f"The absolute risk in the new case is: {self.format_risk(self.llm_values.get('absolute_risk_new'))}\n"
-                        if self.output["eval_3_abs_diff"] == "G":
-                            message_quant += f"The absolute risk difference is: {self.format_risk(self.llm_values.get('absolute_risk_difference'))}\n"
-                        elif self.output["eval_3_abs_diff"] == "C":
-                            message_quant += f"The (calculated) absolute risk difference is: {self.format_risk(w['absolute_risk_difference'])}\n"
-                        message_quant += f"The (calculated) relative risk is: {w['relative_risk']:.4g}\n"
-                        relative_risk_percent = (w["relative_risk"] - 1) * 100
-                        direction = "increase" if relative_risk_percent > 0 else "decrease"
-                        message_quant += f"The (calculated) relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
+                            message_quant += f"The (extracted) absolute risk difference is: {self.format_risk(self.llm_values.get('absolute_risk_difference'))}\n"
+                        # Calculated absolute risk difference wird nun immer ausgegeben
+                        absolute_risk_difference_calc = self.llm_values.get('absolute_risk_new') - self.llm_values.get('absolute_risk_base')
+                        if absolute_risk_difference_calc != self.llm_values.get('absolute_risk_difference'):
+                            if self.output["eval_3_abs_diff"] == "G" and (absolute_risk_difference_calc != self.llm_values.get('absolute_risk_difference')):
+                                message_quant += "Attention: The absolute risk difference calculated by the tool might differ from the value in the text!\n"
+                            message_quant += f"The (calculated) absolute risk difference is: {self.format_risk(absolute_risk_difference_calc)}\n"
+                        # Falls relative_risk initial gegeben, wird dieses ausgegeben
+                        if self.output["eval_3_relative"] == "G":
+                            message_quant += f"The (extracted) relative risk is: {self.llm_values.get('relative_risk'):.4g}\n"
+                            relative_risk_percent = (self.llm_values.get("relative_risk") - 1) * 100
+                            direction = "increase" if relative_risk_percent > 0 else "decrease"
+                            message_quant += f"The (extracted) relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
+                        # Calculated relative risk wird ausgegeben, falls extracted != calculated
+                        relative_risk_calc = self.llm_values.get('absolute_risk_new')/ self.llm_values.get('absolute_risk_base')
+                        if relative_risk_calc != self.llm_values.get('relative_risk'):
+                            if self.output["eval_3_relative"] == "G" and (relative_risk_calc != self.llm_values.get('relative_risk')):
+                                message_quant += "Attention: The relative risk calculated by the tool might differ from the value in the text!\n"
+                            message_quant += f"The (calculated) relative risk is: {relative_risk_calc:.4g}\n"
+                            relative_risk_percent = (relative_risk_calc - 1) * 100
+                            direction = "increase" if relative_risk_percent > 0 else "decrease"
+                            message_quant += f"The (calculated) relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
                         self.output["eval_case_overall"] = "L1" #################
                     
-                    # Initial NICHT transparent (L2)
+                    # Initial NICHT transparent (L2)  --> HIER ÄNDERUNG DURCHFÜHREN !!!
                     # Beide absoluten Risiken berechenbar, aber min. eins davon nicht initial gegeben
                     elif self.output["eval_3_abs_base"] in ["G", "C"] and self.output["eval_3_abs_new"] in ["G", "C"]:
-                        message_quant += calculated_string
+                        #message_quant += calculated_string
                         if self.output["eval_3_abs_base"] == "G":
                             message_quant += f"The absolute risk in the base case is: {self.format_risk(self.llm_values.get('absolute_risk_base'))}\n"
                         elif self.output["eval_3_abs_base"] == "C":
@@ -378,18 +366,28 @@ class RiskEvaluator:
                             message_quant += f"The absolute risk in the new case is: {self.format_risk(self.llm_values.get('absolute_risk_new'))}\n"
                         elif self.output["eval_3_abs_new"] == "C":
                             message_quant += f"The (calculated) absolute risk in the new case is: {self.format_risk(w['absolute_risk_new'])}\n"
+                        # Falls absolute_risk_difference initial gegeben, wird diese ausgegeben
                         if self.output["eval_3_abs_diff"] == "G":
-                            message_quant += f"The absolute risk difference is: {self.format_risk(self.llm_values.get('absolute_risk_difference'))}\n"
-                        elif self.output["eval_3_abs_diff"] == "C":
-                            message_quant += f"The (calculated) absolute risk difference is: {self.format_risk(w['absolute_risk_difference'])}\n"
+                            message_quant += f"The (extracted) absolute risk difference is: {self.format_risk(self.llm_values.get('absolute_risk_difference'))}\n"
+                        # Calculated absolute risk difference wird nun immer ausgegeben
+                        absolute_risk_difference_calc = w['absolute_risk_new'] - w['absolute_risk_base']
+                        if absolute_risk_difference_calc != self.llm_values.get('absolute_risk_difference'):
+                            if self.output["eval_3_abs_diff"] == "G" and (absolute_risk_difference_calc != self.llm_values.get('absolute_risk_difference')):
+                                message_quant += "Attention: The absolute risk difference calculated by the tool might differ from the value in the text!\n"
+                            message_quant += f"The (calculated) absolute risk difference is: {self.format_risk(absolute_risk_difference_calc)}\n"
+                        # Falls relative_risk initial gegeben, wird dieses ausgegeben
                         if self.output["eval_3_relative"] == "G":
-                            message_quant += f"The relative risk is: {self.llm_values.get('relative_risk'):.4g}\n"
+                            message_quant += f"The (extracted) relative risk is: {self.llm_values.get('relative_risk'):.4g}\n"
                             relative_risk_percent = (self.llm_values.get("relative_risk") - 1) * 100
                             direction = "increase" if relative_risk_percent > 0 else "decrease"
-                            message_quant += f"The relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
-                        elif self.output["eval_3_relative"] == "C":
-                            message_quant += f"The (calculated) relative risk is: {w['relative_risk']:.4g}\n"
-                            relative_risk_percent = (w["relative_risk"] - 1) * 100
+                            message_quant += f"The (extracted) relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
+                        # Calculated relative risk wird ausgegeben, falls extracted != calculated
+                        relative_risk_calc = w['absolute_risk_new']/ w['absolute_risk_base']
+                        if relative_risk_calc != self.llm_values.get('relative_risk'):
+                            if self.output["eval_3_relative"] == "G" and (relative_risk_calc != self.llm_values.get('relative_risk')):
+                                message_quant += "Attention: The relative risk calculated by the tool might differ from the value in the text!\n"
+                            message_quant += f"The (calculated) relative risk is: {relative_risk_calc:.4g}\n"
+                            relative_risk_percent = (relative_risk_calc - 1) * 100
                             direction = "increase" if relative_risk_percent > 0 else "decrease"
                             message_quant += f"The (calculated) relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
                         self.output["eval_case_overall"] = "L2" #################
@@ -419,14 +417,14 @@ class RiskEvaluator:
                         message_quant += "The tool could neither extract nor calculate any absolute risk.\n"
                         if self.output["eval_3_relative"] == "G":
                             message_quant += "However, the tool was able to extract a relative risk.\n"
-                            message_quant += f"The relative risk is: {self.llm_values.get('relative_risk'):.4f}\n"
+                            message_quant += f"The relative risk is: {self.llm_values.get('relative_risk'):.4g}\n"
                             relative_risk_percent = (self.llm_values.get('relative_risk') - 1) * 100
                             direction = "increase" if relative_risk_percent > 0 else "decrease"
                             message_quant += f"The relative risk {direction} is {abs(relative_risk_percent):.2f}%\n"
                             message_quant += "Attention: Solely interpreting the relative risk can be misleading!"
                         if self.llm_values.get("absolute_risk_difference") is not None:
                             message_quant += "However, the tool was able to extract an absolute risk difference.\n"
-                            message_quant += f"The absolute risk difference is: {self.llm_values.get('absolute_risk_difference')*100:.2f}%\n"
+                            message_quant += f"The (extracted) absolute risk difference is: {self.llm_values.get('absolute_risk_difference')*100:.2f}%\n"
                             message_quant += "Attention: Solely interpreting the absolute risk difference can be misleading!"
                         self.output["eval_case_overall"] = "L4" #################
         self.output["message_quant"] = message_quant
@@ -525,8 +523,8 @@ def extract_selected_attributes(llm_output: str) -> str:
         "reference_class_description_base",
         "reference_class_description_new",
         "source_base",
-        "source_new",
-        "topic_and_unit"
+        "source_new"
+        #"topic_and_unit"
     ]
 
     result = {key: None for key in target_keys}
@@ -547,11 +545,11 @@ def extract_selected_attributes(llm_output: str) -> str:
 
 
 def run_pipeline(llm_output: str) -> dict:
-#    print(f" [run_pipeline] got LLM output:\n{llm_output}\n")
+#    print(f"🧩 [run_pipeline] got LLM output:\n{llm_output}\n")
 
     risk_data = RiskEvaluator()
     output = extract_selected_attributes(llm_output)
-#    print(f" [run_pipeline] after extract_selected_attributes:\n{output}\n")
+#    print(f"🧩 [run_pipeline] after extract_selected_attributes:\n{output}\n")
 
     risk_data.load_from_text(output)
     risk_data.evaluate()
@@ -563,11 +561,9 @@ def run_pipeline(llm_output: str) -> dict:
         "eval_case_overall": risk_data.output.get("eval_case_overall") or "",
         "message_source": risk_data.output.get("message_source") or ""
    }
-
-    print(f" [run_pipeline] final result:\n{result}\n")
+    #TEST ----------------------------------------------------------------------------------------------------------------------------
+    #print(f"✅ [run_pipeline] final result:\n{result}\n")
     return result
-
-
 
 
 
