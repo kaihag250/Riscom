@@ -122,38 +122,39 @@ print(f"\n {len(common_columns)} extraction categories are being compared for th
 #support:  is the number of true examples for each class in the dataset
 
 
-# 1. Classifikations
-print("Classifikation")
+# 1. Classifications
+print("Classification:")
 for col in classification_columns:
     if col in common_columns:
-        # String-Vereinheitlichung
+        # formatting
         gt_raw = gt_df[col].astype(str).str.strip().str.lower()
         pred_raw = pred_df[col].astype(str).str.strip().str.lower()
 
-        # === Teil 1: Nur echte Labels (0 oder 1) ===
-        mask = (gt_raw != "null") & (gt_raw != "nan")
+        print(f"\n--- {col} ---")
+        # Null-columns filter
+        mask = (gt_raw != "null") & (gt_raw != "nan") & (pred_raw != "null") & (pred_raw != "nan")
         gt_valid = gt_raw[mask]
         pred_valid = pred_raw[mask]
 
-        print(f"\n--- {col} ---")
         if len(gt_valid) == 0:
-            print("No comparison data found.")
+            print("no valid comparison data found")
         else:
-            print("→ Classifikation (0/1):")
+            print("→ classification (only 0/1):")
             print(classification_report(gt_valid, pred_valid, zero_division=0))
 
-        #2: Check for 'null'-cases
-        null_mask = (gt_raw == "null") | (gt_raw == "nan")
-        null_gt = gt_raw[null_mask]
-        null_pred = pred_raw[null_mask]
-
-        null_matches = (null_pred == "null") | (null_pred == "nan") | (null_pred == "")
-        null_accuracy = null_matches.sum() / len(null_matches) if len(null_matches) > 0 else 1.0
-
-        print(f" Null-Handling: {null_matches.sum()}/{len(null_matches)} was recognized as null ({null_accuracy:.2%})")
-
+            # Logging
+            for i in gt_valid.index:
+                log_entries.append({
+                    "index": i,
+                    "category": col,
+                    "type": "classification",
+                    "ground_truth": gt_raw[i],
+                    "prediction": pred_raw[i],
+                    "correct": gt_raw[i] == pred_raw[i]
+                })
     else:
-        print(f"  Column {col} not in both files.")
+        print(f" Column {col} not found in both")
+
 
 
 
