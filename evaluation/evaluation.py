@@ -69,8 +69,19 @@ def clean_number(value):
     if pd.isna(value):
         return None
     value = str(value).strip().lower()
+
     if value in ["", "null", "nan", "none"]:
         return None
+
+    #percentages
+    if "%" in value:
+        value = value.replace(",", ".").replace("%", "")
+        try:
+            return float(value) / 100.0
+        except ValueError:
+            return None
+
+    # point or entire number extraction
     value = value.replace(",", ".")
     value = re.sub(r"[^0-9\.]", "", value)
     try:
@@ -78,12 +89,13 @@ def clean_number(value):
     except ValueError:
         return None
 
+
 # Read data and check
 if not os.path.exists(PREDICTION_FILE):
-    print(f"❌ Prediction file not found: {PREDICTION_FILE}")
+    print(f"Prediction file not found: {PREDICTION_FILE}")
     exit(1)
 if not os.path.exists(GROUND_TRUTH_FILE):
-    print(f"❌ Ground truth file not found: {GROUND_TRUTH_FILE}")
+    print(f"Ground truth file not found: {GROUND_TRUTH_FILE}")
     exit(1)
 
 pred_raw = pd.read_csv(PREDICTION_FILE)
@@ -110,33 +122,39 @@ print(f"\n {len(common_columns)} extraction categories are being compared for th
 #support:  is the number of true examples for each class in the dataset
 
 
-print("Classifikation:")
+# 1. Classifikations
+print("Classifikation")
 for col in classification_columns:
     if col in common_columns:
-        # common format string, trimm, lowercase
+        # String-Vereinheitlichung
         gt_raw = gt_df[col].astype(str).str.strip().str.lower()
         pred_raw = pred_df[col].astype(str).str.strip().str.lower()
 
-        print(f"\n--- {col} ---")
-        if len(gt_raw) == 0:
-            print("no comparison data found")
-        else:
-            print("→ classification (incl. null):")
-            report = classification_report(gt_raw, pred_raw, zero_division=0, output_dict=True)
-            print(classification_report(gt_raw, pred_raw, zero_division=0))
+        # === Teil 1: Nur echte Labels (0 oder 1) ===
+        mask = (gt_raw != "null") & (gt_raw != "nan")
+        gt_valid = gt_raw[mask]
+        pred_valid = pred_raw[mask]
 
-            # insert results in the log list created in the beginning
-            for i, (gt_val, pred_val) in enumerate(zip(gt_raw, pred_raw)):
-                log_entries.append({
-                    "index": i,
-                    "category": col,
-                    "type": "classification",
-                    "ground_truth": gt_val,
-                    "prediction": pred_val,
-                    "correct": str(gt_val) == str(pred_val)
-                })
+        print(f"\n--- {col} ---")
+        if len(gt_valid) == 0:
+            print("No comparison data found.")
+        else:
+            print("→ Classifikation (0/1):")
+            print(classification_report(gt_valid, pred_valid, zero_division=0))
+
+        #2: Check for 'null'-cases
+        null_mask = (gt_raw == "null") | (gt_raw == "nan")
+        null_gt = gt_raw[null_mask]
+        null_pred = pred_raw[null_mask]
+
+        null_matches = (null_pred == "null") | (null_pred == "nan") | (null_pred == "")
+        null_accuracy = null_matches.sum() / len(null_matches) if len(null_matches) > 0 else 1.0
+
+        print(f" Null-Handling: {null_matches.sum()}/{len(null_matches)} was recognized as null ({null_accuracy:.2%})")
+
     else:
-        print(f" Column {col} not found in both")
+        print(f"  Column {col} not in both files.")
+
 
 
 # 2. Numeric categories: Accuracy
