@@ -141,8 +141,8 @@ document.addEventListener("DOMContentLoaded", () => {
             outputQuelle.style.display = "block";
 
             if (
-              message_source?.trim().includes("Both sources are provided. Please validate.") ||
-              message_source?.trim().includes("A source is provided. Please validate.")
+              message_source?.trim().includes("Sources for both the base and new case were identified.") ||
+              message_source?.trim().includes("A source is provided. Please review its credibility.")
             ) {
               outputQuelle.classList.add("Transparent");
             } else {
