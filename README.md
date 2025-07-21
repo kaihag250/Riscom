@@ -36,10 +36,10 @@
 
 ## **Struktur**
 
-- **LLM/** – Adapter für Mistral, Notebooks für Fine-Tuning, Tools zur Evaluierung und synthetischen Datenerzeugung.
-- **server/** – FastAPI-Server inklusive separater Deployments für GPU (RunPod) und CPU (BWCloud).
-- **plugin/** – Direkt verwendbares Chrome-Plugin (Manifest, Popup, Content Scripts).
-- **research/** – Notebooks und Skripte zur Entwicklung der Feinjustierung und Logik-Verbindung zum Plugin.
-- **logbook/** – Wöchentliche Fortschrittsdokumentation (PDFs).
+- LLM/ – Adapter für Mistral, Notebooks für Fine-Tuning, Tools zur Evaluierung und Datengenerierung.
+- server/ – FastAPI-Server mit LLM-Inferenz und Logik.
+- plugin/ – Chrome-Plugin (Manifest, Popup, Content Script).
+- research/ – Fine-Tuning-Notebooks, Adapter und Testdatensätze.
+- logbook/ – Wöchentliche Fortschrittsdokumentation (PDFs W1–W12).
 
 ---
