@@ -1,25 +1,45 @@
 # Riscom — Risk Communication Extractor
 
-**Riscom** ist ein praxisorientiertes Forschungsprojekt, das ein feinjustiertes Large Language Model (LLM) mit einer Logik- und Plugin-Pipeline kombiniert, um Risikokommunikation aus Texten automatisch zu erkennen, zu quantifizieren und verständlich darzustellen.
+**Riscom** ist ein praxisorientiertes Forschungsprojekt, das ein feinjustiertes **Large Language Model (LLM)** mit einer **Logik- und Plugin-Pipeline** kombiniert, um Risikokommunikation aus Texten **automatisch zu erkennen, zu quantifizieren und verständlich darzustellen**.
 
-##  Kernkomponenten
-- **LLM + Adapter:** Eigenständig trainierte Adapter für Mistral 7B, quantisiert auf Q8, optimiert für BWCloud.
-- **Server:** FastAPI-Server mit automatisierter Logik-Pipeline (`logik.py`), um LLM-Ausgaben in nutzbare Entscheidungshilfen zu übersetzen.
-- **Browser-Plugin:** Chrome-Plugin, das markierte Texte über eine REST-Schnittstelle an den Server sendet und die Ergebnisse direkt in der UI darstellt.
-- **Build-Tools:** Automatisierter Build-Workflow mit CMake für Merging, Konvertierung und Quantisierung.
-- **Testdatensätze:** Laufend erweiterter und synthetisch angereicherter Datensatz für bessere Modell-Performance.
+---
 
-## Fortschritt (Stand W12)
-- Erfolgreicher Umzug von RunPod auf BWCloud mit stabiler Runtime.
-- Einführung von Q8-Quantisierung für performante Inferenz bei hoher Genauigkeit.
-- Vollständig funktionierende Logik, die Extraktionsergebnisse validiert, berechnet und in verständliche Nachrichten übersetzt.
-- Durchgängige Test-Pipeline vom Input über das Modell bis zur finalen Ausgabe im Plugin.
-- Kontinuierliche Optimierung von Modell, Logik und Plugin für Produktivbetrieb.
+## **Kernkomponenten**
 
-## Struktur
-- `server/` – FastAPI-Server mit LLM-Inferenz und Logik.
-- `plugin/` – Chrome-Plugin (Manifest, Popup, Content Script).
-- `research/` – Fine-Tuning-Notebooks, Adapter und Testdatensätze.
-- `logbook/` – Wöchentliche Fortschrittsdokumentation (PDFs W1–W12).
+### **LLM & Adapter**
+- Eigenständig trainierte **Adapter für das Mistral 7B Basismodell**, spezialisiert auf Risikokommunikation.
+- **Quantisierte Variante (Q8)** für effizienten Betrieb auf CPU-Infrastrukturen (z.B. **BWCloud**).
+- Enthält **Jupyter Notebooks** für Fine-Tuning-Prozesse auf Basis unserer **2000 Datensätze**.
+- Tools zur **synthetischen Erzeugung zusätzlicher Trainingsdaten**.
+- **Evaluations-Tools** zur Messung der Qualität und Effektivität des trainierten Modells.
+
+### **Server**
+- **FastAPI-basierter Inferenzserver** zur Bereitstellung des LLM und der nachgeschalteten Logik-Pipeline.
+- **Unterscheidung zwischen GPU-Infrastruktur (RunPod) und CPU-Infrastruktur (BWCloud)** mit entsprechenden Deployment-Anleitungen und Dateien.
+- **Automatisierte Logik-Komponente (`logik.py`)**, die Ergebnisse des LLMs in **klare, nutzbare Entscheidungshilfen** für die Risikodarstellung im Plugin transformiert.
+
+### **Browser-Plugin**
+- Einfach zu importierendes **Chrome-Plugin** zur direkten Interaktion mit dem Server.
+- Ermöglicht das **Markieren von Texten im Webbrowser**, die an den Inferenzserver gesendet und unmittelbar ausgewertet werden.
+- **Darstellung der ausgewerteten Ergebnisse** direkt in der Benutzeroberfläche des Browsers zur optimalen Nutzerfreundlichkeit.
+
+### **Build-Tools**
+- **Automatisierter Workflow mittels CMake** für:
+  - **Merging der Adapter** mit dem Mistral-Basismodell.
+  - **Konvertierung und Quantisierung (Q8)** des Modells.
+
+### **Research**
+- **Experimente und Analysen** zum Fine-Tuning sowie zu logischen Komponenten, um die Verbindung zwischen Modell-Output und Plugin-Darstellung weiter zu verbessern.
+- Entwicklung der **Logik zur automatischen Generierung von Hinweisen** aus den Daten des LLM für klare Risikokommunikation.
+
+---
+
+## **Struktur**
+
+- **LLM/** – Adapter für Mistral, Notebooks für Fine-Tuning, Tools zur Evaluierung und synthetischen Datenerzeugung.
+- **server/** – FastAPI-Server inklusive separater Deployments für GPU (RunPod) und CPU (BWCloud).
+- **plugin/** – Direkt verwendbares Chrome-Plugin (Manifest, Popup, Content Scripts).
+- **research/** – Notebooks und Skripte zur Entwicklung der Feinjustierung und Logik-Verbindung zum Plugin.
+- **logbook/** – Wöchentliche Fortschrittsdokumentation (PDFs).
 
 ---
