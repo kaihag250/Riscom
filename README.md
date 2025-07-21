@@ -23,11 +23,6 @@
 - Ermöglicht das **Markieren von Texten im Webbrowser**, die an den Inferenzserver gesendet und unmittelbar ausgewertet werden.
 - **Darstellung der ausgewerteten Ergebnisse** direkt in der Benutzeroberfläche des Browsers zur optimalen Nutzerfreundlichkeit.
 
-### **Build-Tools**
-- **Automatisierter Workflow mittels CMake** für:
-  - **Merging der Adapter** mit dem Mistral-Basismodell.
-  - **Konvertierung und Quantisierung (Q8)** des Modells.
-
 ### **Research**
 - **Experimente und Analysen** zum Fine-Tuning sowie zu logischen Komponenten, um die Verbindung zwischen Modell-Output und Plugin-Darstellung weiter zu verbessern.
 - Entwicklung der **Logik zur automatischen Generierung von Hinweisen** aus den Daten des LLM für klare Risikokommunikation.
